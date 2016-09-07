@@ -1,0 +1,856 @@
+
+/*-------------banner部分--------------*/
+.banner{
+	width: 1200px;
+	margin: 40px auto 0;
+	position: relative;
+}
+.banner .nav{
+	width: 1200px;
+	height: 40px;
+	float: left;
+}
+
+.banner .nav >li{
+	float: left;
+	font-size: 16px;
+	color: #333;
+	line-height: 40px;
+	padding: 0 19px;
+	margin: 0 10px;
+}
+.banner .nav >li:nth-child(1){
+	position: relative;
+	width: 150px;
+	text-align: center;
+	color: white;
+	background: #382f6b;
+}
+.banner .nav .navMenu{
+	text-align: left;
+	position:absolute ;
+	width: 184px;
+	top: 40px;
+	left: 0;
+	border: 1px solid #463B7F;
+}
+.banner .nav .navMenu >li{
+	width: 153px;
+	height: 91px;
+	padding: 0 17px;
+	padding-top: 10px;
+	border-bottom: 1px dashed   white;
+}
+.banner .nav .navMenu >li:nth-child(5){
+	border: 0;
+}
+.banner .nav .navMenu li:nth-child(1),
+.banner .nav .navMenu li:nth-child(3),
+.banner .nav .navMenu li:nth-child(5){
+	background-color: #463B7F;
+}
+.banner .nav .navMenu li:nth-child(2),
+.banner .nav .navMenu li:nth-child(4){
+	background-color: #382F6B;
+}
+.banner .nav .navMenu li >a{
+	color: white;
+	line-height: 30px;
+	font-size:12px;
+}
+.banner .nav .navMenu li >a:nth-child(1){
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+.banner .nav .navMenu .show{
+	background: white;
+	position: absolute;
+	width: 200px;
+	height: 512px;
+	border: 1px solid #382F6B;
+	left: 186px;
+	top: -0px;
+	background: white;
+	padding-left: 16px;
+	display: none;
+}
+.banner .nav .navMenu .show a{
+	color: black;
+	border-left: 1px solid #ccc;
+	font-size: 14px;
+	padding:0 10px;
+}
+.banner .nav .navMenu .show a:hover{
+	color: purple;
+	text-decoration: none;
+}
+.banner .nav .navMenu li:hover .show{
+	display: block;
+	z-index: 100;
+}
+/*-----------banner部分------------*/
+.banner .area{
+	position: absolute;
+	left: 200px;
+	top:20px ;
+}
+/*----------------清除定位----------------*/
+.clear{
+	height: 600px;
+	width: 100%;
+}
+/*-----------------拍卖会部分------------------*/
+.auctionbox{
+	height: 1465px;	
+}
+.auction{
+	width: 1200px;
+	height: 1465px;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.auction h2{
+	width: 1200px;
+	text-align: center;
+	display: block;
+}
+.auction .leftLine{
+	width: 526px;
+	height: 2px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	background: #999;
+	float: left;
+}
+.auction >span{
+	display: block;
+	padding:0 30px;
+	float: left;
+	font-size: 20px;
+}
+.auction .rightLine{
+	width: 526px;
+	height: 2px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	background: #999;
+	float: right;
+}
+.auction .picList{
+	margin-top: 30px;
+	margin-bottom: 40px;
+	float: left;
+	width: 1212px;
+}
+.auction .picList li{
+	padding-top: 48px;
+	text-align: center;
+	float: left;
+	width: 290px;
+	height: 370px;/*418*/
+	margin-right: 11px;
+	margin-bottom: 11px;
+	border: 1px solid #EEEEEE;
+}
+.auction .picList li img{
+	margin-bottom: 60px;
+}
+.auction .picList li p{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	line-height: 35px;
+}
+.auction .picList li p:hover{
+	color:purple ;
+}
+.auction .pointList{
+	margin-left: 35%;
+}
+.auction .pointList li{
+	float: left;
+	width: 25px;
+	height: 25px;
+	font-size: 16px;
+	background: #aaa;
+	border-radius: 50%;
+	margin-right:20px ;
+	color: white;
+	margin-right: 50px;
+	text-align: center;
+	line-height: 25px;
+}
+.auction .pointList li:hover{
+	background: #463B7F;
+}
+.auction a{
+	font-size: 16px;
+	float: left;
+	padding: 5px 20px;
+	border: 1px solid #333333;
+	border-radius: 10px;
+}
+.auction a:hover{
+	color: purple;
+	text-decoration: none;
+}
+/*-----------艺术品精选-----------------*/
+.artwork{
+	width: 1200px;
+	height: 720px;
+	margin: 86px auto 0;
+	/*background: yellow;*/
+}
+.artwork h2{
+	width: 100%;
+	height: 82px;
+}
+.artwork h2 img{
+	display: block;
+	margin: 0 auto;
+}
+.artwork h2 .more{
+	margin-top: -6px;
+	float: right;
+	color: #949394;
+	font-size: 16px;
+}
+.artwork h2 .leftLine{
+	margin-top: 25px;
+	width: 526px;
+	height: 2px;
+	background: #CCCCCC;
+	float: left;
+}
+.artwork h2 span{
+	margin-top: 16px;
+	float: left;
+	padding:0 30px;
+	font-size: 16px;
+}
+.artwork h2 .rightLine{
+	margin-top: 13px;
+	width: 526px;
+	float: right;
+	height: 2px;
+	background: #CCCCCC;
+}
+.artwork .left{
+	/*margin-top: 4px;*/
+	width:174px ;
+	float: left;
+}
+.artwork ul li{
+	width: 71px;
+	height: 31px;
+	float: left;
+	line-height: 31px;
+}
+.artwork .left ul li:nth-child(1){
+	font-size:16px ;
+	line-height: 34px;
+	height: 34px;
+	color: white;
+	width: 142px;
+	padding: 0 15px;
+	background: #333;
+}
+.artwork .right{
+	width: 1026px;
+	float: left;
+}
+.artwork .right ul li{
+	margin-left: 7px;
+	margin-bottom: 10px;
+	width: 247px;
+	height: 306px;
+	border: 1px solid #CCCCCC;
+	float: left;
+}
+.artwork .right ul li p:nth-child(1){
+	font-size: 18px;
+	color: #454646;
+	padding-left: 10px;
+}
+.artwork .right ul li p:nth-child(2){
+	font-size: 14px;
+	color: #999;
+	padding-left: 10px;
+}
+
+/*--------------珠宝 jewelry-------------*/
+.jewelry{
+	width: 1200px;
+	height: 460px;
+	margin: 80px auto 0;
+	/*background: yellow;*/
+}
+.jewelry h2{
+	width: 100%;
+	height: 82px;
+}
+.jewelry h2 img{
+	display: block;
+	margin: 0 auto;
+}
+.jewelry h2 .more{
+	margin-top: -6px;
+	float: right;
+	color: #949394;
+	font-size: 16px;
+}
+.jewelry h2 .leftLine{
+	margin-top: 25px;
+	width: 526px;
+	height: 2px;
+	background: #CCCCCC;
+	float: left;
+}
+.jewelry h2 span{
+	margin-top: 16px;
+	float: left;
+	padding:0 18px;
+	font-size: 16px;
+}
+.jewelry h2 .rightLine{
+	margin-top: 13px;
+	width: 526px;
+	float: right;
+	height: 2px;
+	background: #CCCCCC;
+}
+.jewelry .left{
+	width: 410px;
+	float: left;
+}
+.jewelry .left li{
+	width: 390px;
+	height: 160px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #CCCCCC;
+}
+.jewelry .left li img{
+	width: 160px;
+	height: 160px;
+	float: left;
+	padding-right: 10px;
+}
+.jewelry .left li p{
+	text-align: center;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 35px;
+    font-size: 16px;
+    color: #333;
+}
+.jewelry .left li p:nth-child(2){
+	padding-top: 10px;
+}
+.jewelry .left li p:nth-child(4){
+	font-size:14px ;
+	color: #999999;
+}
+.jewelry .left li p:nth-child(5){
+	font-size:18px ;
+}
+.jewelry .center{
+	float: left;
+	margin-left: 8px;
+}
+.jewelry .right{
+	float: right;
+	width: 372px;
+}
+.jewelry .right li{
+	margin-left: 4px;
+	margin-bottom: 7px;
+	float: left;
+	width: 180px;
+	height: 180px;
+	border: 1px solid #CCCCCC;
+}
+
+/*-------------奢侈品名表部分-----------------*/
+.luxury{
+	width: 1200px;
+	height: 460px;
+	margin: 80px auto 0;
+	/*background: yellow;*/
+}
+.luxury h2{
+	width: 100%;
+	height: 82px;
+}
+.luxury h2 img{
+	display: block;
+	margin: 0 auto;
+}
+.luxury h2 .more{
+	margin-top: -6px;
+	float: right;
+	color: #949394;
+	font-size: 16px;
+}
+.luxury h2 .leftLine{
+	margin-top: 25px;
+	width: 526px;
+	height: 2px;
+	background: #CCCCCC;
+	float: left;
+}
+.luxury h2 span{
+	margin-top: 16px;
+	float: left;
+	padding:0 54px;
+	font-size: 16px;
+}
+.luxury h2 .rightLine{
+	margin-top: 13px;
+	width: 526px;
+	float: right;
+	height: 2px;
+	background: #CCCCCC;
+}
+.luxury .left{
+	width: 410px;
+	float: left;
+}
+.luxury .left li{
+	width: 390px;
+	height: 160px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #CCCCCC;
+}
+.luxury .left li img{
+	width: 160px;
+	height: 160px;
+	float: left;
+	padding-right: 10px;
+}
+.luxury .left li p{
+	text-align: center;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 35px;
+    font-size: 16px;
+    color: #333;
+}
+.luxury .left li p:nth-child(2){
+	padding-top: 10px;
+}
+.luxury .left li p:nth-child(4){
+	font-size:14px ;
+	color: #999999;
+}
+.luxury .left li p:nth-child(5){
+	font-size:18px ;
+}
+.luxury .center{
+	float: left;
+	margin-left: 8px;
+}
+.luxury .right{
+	float: right;
+	width: 372px;
+}
+.luxury .right li{
+	margin-left: 4px;
+	margin-bottom: 7px;
+	float: left;
+	width: 180px;
+	height: 180px;
+	border: 1px solid #CCCCCC;
+}
+/*-----------老爷车部分----------------*/
+.oldCar{
+	width: 1200px;
+	height: 950px;
+	margin: 40px auto 20px;
+	/*background: yellow;*/
+}
+.oldCar h2{
+	width: 1200px;
+	height: 58px;
+	margin: 0 auto;
+	text-align: center;
+}
+.oldCar h2 >span{
+	float: right;
+	padding-top: 14px;
+	font-size: 16px;
+	color: #949394;
+}
+.oldCar ul{
+	float: left;
+	width:100%;
+}
+.oldCar ul li{
+	position: relative;
+	float: left;
+	height: 290px;
+	margin-right: 4px;
+	margin-bottom: 10px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+}
+.oldCar ul li img{
+	width: 290px;
+	vertical-align: middle;
+}
+.oldCar ul li span{
+	width: 0;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 100%;
+}
+.oldCar ul li div{
+	display: none;
+	width: 290px;
+	height: 290px;
+	background: black;
+	opacity: 0.5;
+	position: absolute;
+	vertical-align: middle;
+	top: 0;
+	left: 0;
+}
+.oldCar ul li div p:nth-child(1){
+	margin-top: 34%;
+	font-size: 16px;
+	color: white;
+}
+.oldCar ul li div p:nth-child(2){
+	margin-top: 20%;
+	font-size: 18px;
+	color: white;
+}
+.oldCar ul li:hover div{
+	display: block;
+}
+/*-------------闪购部分---------------*/
+.price{
+	clear: both;
+	width:1200px;
+	height: 600px;
+	margin: 60px auto 28px;
+	/*background:red ;*/
+}
+.price h2{
+	display: block;
+	height: 77px;
+	width: 1200px;
+	margin: 0 auto 30px;
+	text-align: center;
+	border-bottom: 2px solid #CCCCCC;
+}
+.price h2 .more{
+	float: right;
+	font-weight: 100;
+}
+.price h2 >div{
+	margin-top: 12px;
+	width: 100%;
+	color: #000000;
+	text-decoration: none;
+	font-weight: 100;
+	margin-left: 40%;
+}
+.price div span{
+	display: block;
+	float: left;
+	padding: 4px 20px;
+	border: 2px solid #CCCCCC;
+}
+.price div span:nth-child(2){
+	border-left: 0;
+	border-right: 0;
+}
+.price .left{
+	width: 470px;
+	height: 480px;
+	float: left;
+}
+
+.price .right{
+	float: left;
+	width: 730px;
+}
+.price .right li{
+	text-align: center;
+	float: left;
+	width: 175px;
+	height: 230px;
+	border: 1px solid #CCCCCC;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+.price .right li span{
+	height: 100%;
+	width:0;
+	display: inline-block;
+	vertical-align: middle;
+}
+.price .right li img{
+	vertical-align: middle;
+}
+/*-------------猜你喜欢部分--------------*/
+.like{
+	width: 1200px;
+	margin: 0 auto;
+}
+.like .leftLine{
+	width:536px ;
+	height: 2px;
+	background: #CCCCCC;
+	float: left;
+	margin-top: 12px;
+}
+.like h2 span{
+	padding: 0 26px;
+}
+.like .rightLine{
+	width:536px ;
+	height: 2px;
+	background: #CCCCCC;
+	float: right;
+	margin-top: 12px;
+}
+
+/*---------------banner部分-----------------*/
+.like .likeBanner{
+	width: 1200px;
+	height: 240px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.like .likeBanner ul{
+	width: 2500px;
+	height: 240px;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0px;
+}
+.like .likeBanner ul li{
+	width: 150px;
+	height: 220px;
+	float: left;
+	margin: 20px 45px 0px;
+	text-align: center;
+}
+.like .likeBanner ul li img{
+	width: 150px;
+}
+.like .likeBanner ul li p{
+	text-align: center;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 20px;
+    font-size: 12px;
+    font-family:"微软雅黑";
+}
+.like .leftBtn{
+	cursor: pointer;
+	position: absolute;
+	width: 20px;
+	height: 53px;
+	display: block;
+	left: 0;
+	top: 60px;
+	z-index: 10;
+	background: url(../img/left1.jpg) no-repeat left top;
+}
+.like .rightBtn{
+	cursor: pointer;
+	position: absolute;
+	width: 20px;
+	height: 53px;
+	display: block;
+	right: 0;
+	top: 60px;
+	background: url(../img/right1.jpg) no-repeat left top;
+}
+
+/*--------------定位部分--------------*/
+.register{
+	width: 20px;
+    height: 40px;
+    padding: 30px 15px;
+    font-size: 20px;
+    background: #463B7F;
+    color: #FFFFFF;
+    position: fixed;
+    right: 0px;
+    bottom: 60px;
+    cursor: pointer;
+}
+.register a:hover{
+	text-decoration: none;
+}
+.kefu{
+	position: fixed;
+	cursor: pointer;
+	right: 0;
+	bottom: 0;
+	width: 50px;
+	height: 54px;
+}
+/*------------右边的选项部分---------------*/
+.fixRight{
+	padding-top: 20px;
+	/*display: none;*/
+	/*opacity: 0;*/
+	width: 30px;
+	height: 330px;
+	background: #333333;
+	position: fixed;
+	top: 25%;
+	right: 0px;
+	z-index: 100;
+}
+.fixRight li{
+	cursor: pointer;
+	width: 30px;
+	height: 20px;
+	margin: 30px 0;
+	position: relative;
+}
+.fixRight li >div{
+	display: none;
+	position: absolute;
+	background: #333333;
+}
+.fixRight li:nth-child(1){
+	/*width: 100%;*/
+	height: 19px;
+	background: url(../img/paipin.png)no-repeat 4px top;
+}
+.fixRight li:nth-child(1):hover{
+	background: orangered url(../img/paipin.png)no-repeat 4px top;
+}
+.fixRight li:nth-child(1) >div{
+	top: 0;
+	left: -130px;
+	padding: 5px 20px;
+	font-size: 14px;
+	color: #CCCCCC;
+}
+.fixRight li:nth-child(2){
+	/*width: 100%;*/
+	height: 19px;
+	background: url(../img/fixright_ss.png)no-repeat 4px top;
+}
+.fixRight li:nth-child(2):hover{
+	background: orangered url(../img/fixright_ss.png)no-repeat 4px top;
+}
+.fixRight li:nth-child(2) >div{
+	width: 160px;
+	top: 0;
+	left: -240px;
+	padding: 5px 20px;
+	font-size: 14px;
+	color: #CCCCCC;
+}
+.fixRight li:nth-child(3){
+	width: 100%;
+	height: 19px;
+	background: url(../img/fixright_shou.png)no-repeat 4px 0;
+}
+.fixRight li:nth-child(3):hover{
+	background: orangered url(../img/fixright_shou.png)no-repeat 4px top;
+}
+.fixRight li:nth-child(3) >div{
+	/*width: 160px;*/
+	top: 0;
+	left: -110px;
+	padding: 5px 20px;
+	font-size: 14px;
+	color: #CCCCCC;
+}
+.fixRight li:nth-child(4){
+	width: 100%;
+	height: 19px;
+	background: url(../img/fixright_ke.png)no-repeat 4px 0;
+}
+.fixRight li:nth-child(4):hover{
+	background: orangered url(../img/fixright_ke.png)no-repeat 4px top;
+}
+.fixRight li:nth-child(4) >div{
+	/*width: 160px;*/
+	top: 0;
+	left: -110px;
+	padding: 5px 20px;
+	font-size: 14px;
+	color: #CCCCCC;
+}
+.fixRight li:nth-child(5){
+	border-top: 1px solid white;
+	padding-left: 2px;
+	color: white;
+	width: 100%;
+	height: 19px;	
+}
+.fixRight li:nth-child(5) img{
+	padding-left: 8px;
+}
+
+img:hover{
+	opacity: 0.6;
+}
+
+/*----------------左边的 楼梯型垂直菜单部分------------------*/
+.fixLeft{
+	position: fixed;
+	top: 20%;
+	left: 1%;
+	width: 40px;
+	height: 246px;
+	background: white;
+}
+.fixLeft li:nth-child(1){
+	font-size: 10px;
+	background: #463B7F;
+	color: white;
+}
+.fixLeft li{
+	cursor: pointer;
+	width: 40px;
+	height: 41px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

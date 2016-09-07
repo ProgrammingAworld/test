@@ -1,0 +1,432 @@
+body,p,ul,dl,ol,li,h1,h2,h3,h4,h5,h6,fieldset,legend,dl,dd,dt,img{margin:0; padding:0;}
+body{font:12px "微软雅黑";}
+ul,li{list-style:none;}
+a{text-decoration:none; color:#666;}
+img,input{border:0;}
+/*-----------------------------------------*/
+body{
+	background: #F6F6F6;;
+}
+.headerbox{
+	height: 70px;
+	background: #000;
+}
+.header{
+	margin: 0 5%;
+	height: 70px;
+	background: url(../../img/logo.jpg) no-repeat left top;
+}
+.header a{
+	margin-left: 35px;
+	margin-top: 25px;
+	float: right;
+	color: #999;
+	font-size: 10px;
+}
+
+.header a >span{
+	display: inline-block;
+	margin-left: 4px;
+	width: 8px;
+	height: 11px;
+	background: url(../../img/logosan.png) no-repeat center;
+}
+.header a:nth-child(1){
+	width: 64px;
+	height: 30px;
+	position: relative;
+	/*background: white;*/
+}
+.header a:nth-child(1):hover{
+	background: white;
+}
+.header a:nth-child(1):hover .erweima{
+	display: block;
+}
+
+.header .erweima{
+	display: none;
+	position: absolute;
+	top: 24px;
+	left: -156px;
+	width: 200px;
+    height: 110px;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: white;
+}
+.header .erweima >div{
+	float: left;
+	margin-right: 10px;
+}
+.header a >div img{
+	width: 90px;
+	height: 90px;
+}
+
+/*---------------登录部分-----------------*/
+.logobox{
+	height: 600px;
+	/*background: red;*/
+	margin-bottom: 40px;
+}
+.logo{
+	margin: 0 5%;
+}
+.logo >img{
+	float: left;
+	margin-top: 100px;
+    margin-right: 80px;
+    width: 567px;
+    margin-left: 80px;
+    height: 474px;
+}
+.logo .logoForm{
+	/*height: 400px;*/
+	width: 350px;
+    padding: 20px;
+    padding-bottom: 40px;
+    background: white;
+    box-shadow: 0 0 10px #999;
+    float: left;
+    margin-top: 100px;	
+}
+.logo .logoForm .logoin{
+	cursor: pointer;
+	float: left;
+	width: 173px;
+	height: 40px;
+	color: white;
+	font-family: "新宋体";
+	background:orange ;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+}
+.logo .logoForm .register{
+	cursor: pointer;
+	float: left;
+	width: 173px;
+	height: 40px;
+	color: #333333;
+	background:white ;
+	font-size: 18px;
+	font-family: "新宋体";
+	line-height: 40px;
+	text-align: center;
+}
+/*-----------登录部分-----------*/
+.logo .logoForm .nameBox{
+	padding-left: 26px;
+	margin: 20px 0;
+	float: left;
+	width: 324px;
+	height: 42px;
+	border: 1px solid #CCCCCC;
+	background: url(../../img/user.png)no-repeat left center;
+}
+.logo .logoForm .nameBox .name{
+	border: none;
+	width: 300px;
+    height: 30px;
+    border: none;
+    text-indent: 5px;
+    color: #666666;
+    line-height: 30px;
+}
+.logo .logoForm .pwdBox{
+	padding-left: 26px;
+	margin-bottom: 20px;
+	float: left;
+	width: 324px;
+	height: 42px;
+	border: 1px solid #CCCCCC;
+	background: url(../../img/password.png)no-repeat left center;
+}
+.logo .logoForm .pwdBox .pwd{
+	width: 300px;
+    height: 30px;
+    border: none;
+    text-indent: 5px;
+    color: #666666;
+    line-height: 30px;
+}
+.logo .logoForm .vipLogo{
+	clear: both;
+	width: 228px;
+    background: #F19107;
+    color: #FFFFFF;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    display: block;
+}
+.logo .logoForm span{
+	padding-left: 34px;
+	display: inline-block;
+	width: 140px;
+	height: 40px;
+	background: url(../../img/QQ.png) no-repeat left center;
+}
+.logo .logoForm span >a{
+	color: black;
+	font-size: 16px;
+	line-height: 40px;
+}
+.logo .logoForm >a{
+	float: right;
+}
+
+/*-----------注册部分-----------*/
+.logo .registerPart{
+	display: none;
+}
+.logo .logoForm .telBox{
+	padding-left: 26px;
+	margin: 20px 0;
+	float: left;
+	width: 324px;
+	height: 42px;
+	border: 1px solid #CCCCCC;
+}
+.logo .logoForm .telBox .tel,.logo .logoForm .setPwdBox .setPwd{
+	width: 300px;
+    height: 30px;
+    border: none;
+    text-indent: 5px;
+    color: #666666;
+    line-height: 30px;
+}
+.logo .logoForm .setPwdBox{
+	padding-left: 26px;
+	float: left;
+	width: 324px;
+	height: 42px;
+	border: 1px solid #CCCCCC;
+}
+.logo .logoForm .confirmPwdBox{
+	margin: 20px 0;
+	padding-left: 26px;
+	float: left;
+	width: 324px;
+	height: 42px;
+	border: 1px solid #CCCCCC;
+}
+.logo .logoForm .confirmPwd{
+	width: 300px;
+    height: 30px;
+    border: none;
+    text-indent: 5px;
+    color: #666666;
+    line-height: 30px;
+}
+.logo .logoForm .registerNow{
+	width: 228px;
+    background: #F19107;
+    color: #FFFFFF;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-family: "΢���ź�";
+    font-size: 18px;
+    display: block;
+}
+
+/*-------------footer部分--------------*/
+.footerBox{
+	/*background: yellow;*/
+	height: 400px;
+	background: url(../img/ditu.jpg) no-repeat right 40px top -30px;
+}
+.footer{
+	width: 1200px;
+	/*height: 160px;*/
+	margin: 0 auto;
+	
+}
+.footer >ul{
+	float: left;
+	height: 150px;
+	margin-right:100px;
+	margin-bottom: 10px;
+	/*background: red;*/
+}
+.footer >ul li:nth-child(1){
+	font-size: 16px;
+	padding-bottom: 16px;
+}
+.footer >ul li a{
+	font-size: 14px;
+	color: #999999;
+	line-height: 22px;
+}
+.footer >ul li a:hover{
+	color: purple;
+	text-decoration: none;
+}
+.footer >ul:nth-child(5) li:nth-child(2){
+	font-size: 16px;
+}
+
+.footerBox .footerNav{
+	clear: both;
+	width: 100%;
+	height: 38px;
+	background: #463b7f;
+}
+.footerBox .footerNav ul{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.footerBox .footerNav ul li{
+	float: left;
+	color: white;
+	text-align: center;
+	padding-left: 100px;
+    font: 14px/38px "microsoft yahei";
+}
+.footerBox .footerNav ul li:nth-child(1) span{
+	float: left;
+	width: 23px;
+	height: 38px;
+	margin-right: 4px;
+	background: url(../img/footerbg.png) no-repeat 0 8px;
+}
+.footerBox .footerNav ul li:nth-child(2) span{
+	float: left;
+	width: 23px;
+	height: 38px;
+	margin-right: 4px;
+	background: url(../img/footerbg.png) no-repeat -30px 8px;
+}
+.footerBox .footerNav ul li:nth-child(3) span{
+	float: left;
+	width: 23px;
+	height: 38px;
+	margin-right: 4px;
+	background: url(../img/footerbg.png) no-repeat -60px 8px;
+}
+.footerBox .footerNav ul li:nth-child(4) span{
+	float: left;
+	width: 23px;
+	height: 38px;
+	margin-right: 4px;
+	background: url(../img/footerbg.png) no-repeat -90px 8px;
+}
+.footerBox .footerNav ul li:nth-child(5) span{
+	float: left;
+	width: 25px;
+	height: 38px;
+	margin-right: 4px;
+	background: url(../img/footerbg.png) no-repeat -116px 8px;
+}
+.footerBox {
+	background: #f5f5f5;
+}
+.footerBox .footerRight{
+	width: 1200px;
+	margin: 0 auto;
+}
+.footerBox .footerRight .left{
+	float: left;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #999;
+}
+.footerBox .footerRight .left{
+	margin-top: 40px;
+}
+.footerBox .footerRight .right{
+	margin-top: 10px;
+	float: right;
+}
+.footerBox .footerRight .right .phone,.footerBox .footerRight .right .weixin{
+	float: left;
+	width: 110px;
+	height: 140px;
+	margin-right: 100px;
+	text-align: center;
+}
+.footerBox .footerRight .right img{
+	width: 110px;
+	height: 110px;
+}
+.footerBox .footerRight .right p{
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+$(function(){
+	$(".register").on("click",function(){
+		$(".logoPart").css("display","none");
+		$(".registerPart").css("display","block");
+	});
+	$(".logoin").on("click",function(){
+		$(".logoPart").css("display","block");
+		$(".registerPart").css("display","none");
+	});
+});
