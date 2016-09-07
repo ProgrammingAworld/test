@@ -1,0 +1,245 @@
+/*-----------拍卖会详情页-----------*/
+.goodsBox{
+	background: #E8E8E9;
+	height: 1000px;
+}
+.showGoods{
+	overflow: hidden;
+	padding-left: 18px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.showGoods .location{
+	width: 1200px;
+	height: 50px;
+}
+.showGoods .location .left{
+	float: left;
+	font-size: 14px;
+}
+.showGoods .location .left span:nth-child(1){
+	line-height: 50px;
+	color: #797979;
+	padding:0 6px;
+}
+.showGoods .location .left span:nth-child(2){
+	color: #463B7F;
+	line-height: 50px;
+}
+.showGoods .location .right{
+	font-size: 14px;
+	float: right;
+	color: #797979;
+}
+.showGoods .nav{
+	position: relative;
+	clear: both;
+	width: 1200px;
+	height: 260px;
+	background: url(../img/sale2_bg.png) no-repeat left top;
+	text-align: center;
+}
+.showGoods .nav img{
+	margin-right: 230px;
+	margin-top: 30px;
+	max-height: 258px;
+    max-width: 430px;
+}
+.showGoods .nav span:nth-child(2){
+	width: 240px;
+	position: absolute;
+	font-family: "微软雅黑";
+	right: 12%;
+	top: 30%;
+	font-size: 16px;
+	color: #FE2323;
+}
+.showGoods .nav p{
+	position: absolute;
+	font-size: 16px;
+	width: 110px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background: #fff;
+    border-radius: 5px;
+    right: 210px;
+    top: 110px;
+    cursor: pointer;
+}
+.showGoods .nav span:nth-child(4){
+	cursor: pointer;
+	position: absolute;
+	text-align: left;
+	padding-left: 30px;
+	right: 10%;
+	bottom: 12px;
+	color: white;
+	font-size: 16px;
+	display: inline-block;
+	width: 50px;
+	height: 21px;
+	background: url(../img/sale2_yan.png) no-repeat left center;	
+}
+.showGoods .nav span:nth-child(5){
+	cursor: pointer;
+	position: absolute;
+	right: 1%;
+	bottom: 12px;
+	display: inline-block;
+	width: 50px;
+	height: 21px;
+	background: url(../img/sale2_shou.png) no-repeat left center;	
+}
+.showGoods .goods{
+	margin-top: 20px;
+	width: 1220px;
+	float: left;
+	font-size: 16px;
+}
+.shadow{
+	-webkit-box-shadow: 6px -6px 10px #CCCCCC; 
+	box-shadow:6px -6px 10px #CCCCCC;
+}
+.showGoods .goods li{
+	cursor: pointer;
+	position: relative;
+	padding: 10px;
+	float: left;
+	width: 265px;
+	height: 435px;
+	background: white;
+	margin-right: 20px;
+	text-align: center;
+}
+.showGoods .goods li >img{
+	height: 265px;
+}
+.showGoods .goods li >span:nth-child(2){
+	position: absolute;
+	top: 280px;
+	left: 16px;
+	width:30px;
+	padding-left: 20px;
+	background: url(../img/sale2_yan.png) no-repeat left center;
+}
+.showGoods .goods li >span:nth-child(3){
+	position: absolute;
+	top: 280px;
+	right: 4px;
+	width:30px;
+	padding-left: 20px;
+	background: url(../img/sale2_shou.png) no-repeat left center;
+}
+.showGoods .goods .information{
+	margin-top: 30px;
+	padding-top: 10px;
+	display: block;
+	width: 100%;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-top: 1px solid #CCCCCC;
+}
+.showGoods .goods .price{
+	display: block;
+	font-size: 14px;
+	line-height: 30px;
+	color: #666666;
+	margin-left: 6px;
+	float: left;
+}
+.showGoods .goods .price span{
+	color: #FE2323;
+}
+.showGoods .goods .reckon{
+	clear: both;
+	font-size: 14px;
+	line-height: 30px;
+	color: #666666;
+	margin-left: 6px;
+	float: left;
+}
+.showGoods .goods .saleTime{
+	clear: both;
+	display: block;
+	text-align: left;
+	font-size: 14px;
+	line-height: 30px;
+	color: #666666;
+	margin-left: 6px;	
+}
+.showGoods .pageIndex{
+	clear: both;
+	width: 1200px;
+	/*border-bottom: 1px solid #CCCCCC;*/
+	/*border-top: 1px solid #CCCCCC;*/
+}
+.showGoods .pageIndex .goodsCount{
+	float: left;
+	padding-top: 100px;
+	font-size: 16px;
+	color:#949394 ;
+}
+.showGoods .pageIndex ul{
+	padding-top: 100px;
+	float: right;
+}
+.showGoods .pageIndex ul >li{
+	cursor: pointer;
+	text-align: center;
+	margin-left: 8px;
+	font-size: 16px;
+	width:36px;
+	height: 32px;
+	line-height: 26px;
+	float: left;
+	background: white;
+}
+.showGoods .pageIndex ul >li:nth-child(2){
+	background: #333333;
+	color: white;
+}
+.showGoods select{
+	width: 66px;
+	height: 25px;
+	float: right;
+	margin-left: 10px;
+	margin-top:100px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
