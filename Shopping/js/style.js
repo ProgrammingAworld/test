@@ -149,15 +149,9 @@ $(function(){
 				"color":"white",
 				"font-size":"10px"
 			});
-		});
-		
-		
-		
-		
-		
-		
-		
+		});	
 	});
+	
 	$(".fixRight li").mouseenter(function(){
 		$(">div" ,this).css("display","block");
 		$(">div" ,this).animate({
@@ -168,70 +162,6 @@ $(function(){
 		$(">div" ,this).css("display","none");
 		$(">div" ,this).css("left",-($(">div" ,this).width()+80))
 	});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*-----------------like的banner图部分-----------------*/
 $(".like .leftBtn").click(function(){
@@ -253,15 +183,6 @@ $(".like .rightBtn").click(function(){
 		},500);
 	}
 });
-
-
-
-
-
-
-
-
-
 
 });
 

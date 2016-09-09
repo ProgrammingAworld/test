@@ -169,7 +169,7 @@ body{
     font-size: 18px;
     display: block;
 }
-.logo .logoForm span{
+.logo .logoForm .qq{
 	padding-left: 34px;
 	display: inline-block;
 	width: 140px;
@@ -190,6 +190,7 @@ body{
 	display: none;
 }
 .logo .logoForm .telBox{
+	position: relative;
 	padding-left: 26px;
 	margin: 20px 0;
 	float: left;
@@ -213,6 +214,7 @@ body{
 	border: 1px solid #CCCCCC;
 }
 .logo .logoForm .confirmPwdBox{
+	position: relative;
 	margin: 20px 0;
 	padding-left: 26px;
 	float: left;
@@ -244,12 +246,28 @@ body{
     font-size: 18px;
     display: block;
 }
-
+/*---------提示信息---------*/
+.logo .logoForm .telBox .confirmTelMsg{
+	position: absolute;
+	display: block;
+	padding: 4px 6px;
+	color: red;
+	right:-70px ;
+	top: 12px;
+}
+.logo .logoForm .confirmPwdBox .confirmMsg{
+	position: absolute;
+	display: block;
+	padding: 4px 6px;
+	color: red;
+	right:-70px ;
+	top: 12px;
+}
 /*-------------footer部分--------------*/
 .footerBox{
 	/*background: yellow;*/
 	height: 400px;
-	background: url(../img/ditu.jpg) no-repeat right 40px top -30px;
+	background: url(../../img/ditu.jpg) no-repeat right 40px top -30px;
 }
 .footer{
 	width: 1200px;

@@ -18,19 +18,27 @@
 	color: #463B7F;
 }
 .showGoods{
-	position: relative;
+	overflow: hidden;
 	padding-top: 6px;
 	width: 1070px;
 	height: 562px;
 	margin: 0 auto;
 	/*background: yellow;*/
 }
-.showGoods ul{
+.showGoods .picNav{
+	position: relative;
 	padding-top: 16px;
-	float: left;
 	width: 86px;
-	height: 362px;
+	height: 368px;
+	float: left;
 	overflow: hidden;
+}
+.showGoods ul{
+	position: absolute;
+	float: left;
+	height: 362px;
+	/*overflow: hidden;*/
+	width: 86px;
 	background: #EEEEEE;
 }
 .showGoods ul >li{
@@ -43,16 +51,18 @@
 	margin: 0;
 }
 .showGoods .leftBtn{
+	z-index: 10;
 	cursor: pointer;
 	display: inline-block;
 	width: 79px;
 	height: 15px;
 	position: absolute;
-	top: 6px;
+	top: 0px;
 	left: 4px;
 	background: url(../img/detailTop.png) no-repeat left top;
 }
 .showGoods .rightBtn{
+	z-index: 10;
 	cursor: pointer;
 	display: inline-block;
 	width: 82px;
@@ -60,7 +70,7 @@
 	position: absolute;
 	top: 370px;
 	left: 2px;
-	background:#EEEEEE url(../img/detailTop.png) no-repeat left top;
+	background:#EEEEEE url(../img/detailDown.png) no-repeat left top;
 }
 .showGoods .goodsPicBox{
 	margin-left: 6px;
@@ -81,6 +91,7 @@
 	background: url(../img/sale2_shou.png) no-repeat left center;
 }
 .showGoods .goodsPic{
+	cursor: crosshair;
 	margin-bottom: 20px;
 	float: left;
 	width: 380px;
@@ -98,14 +109,83 @@
 	vertical-align: middle;
 	width: 376px;
 }
+.showGoods .bigOriginal{
+	z-index: 10;
+	overflow: hidden;
+	position: absolute;
+	width: 380px;
+    height: 380px;
+    top: 270px;
+    left: 576px;
+    display: none;
+}
+.showGoods .bigOriginal >img{
+	position: absolute;
+}
+.goodsPic .shadow{
+	z-index: 100;
+	position: absolute;
+	display:block;
+	width: 100px;
+	height: 100px;
+	background: black;
+	/*opacity: 0.2;*/
+}
 .showGoods .information{
 	padding-top: 16px;
 	margin-left: 16px;
 	float: left;
 	width: 580px;
 	height: 526px;
-	background: yellow;
+	position: relative;
 }
+/*------------绝对定位的客服部分------------*/
+.showGoods .information .kefu{
+	position: absolute;
+	right: 20px;
+	top: 100px;
+}
+.showGoods .information .kefu >img{
+	width: 50px;
+}
+.showGoods .information .kefu >span{
+	font-size: 18px;
+	color: #E93F30;
+}
+.showGoods .information .priceMark{
+	width: 391px;
+	height: 140px;
+	background: url(../img/detail_jia.png) no-repeat left top;
+	position: absolute;
+	left: 100px;
+	top: 70px;
+	display: none;
+}
+.showGoods .information .priceMark >ul{
+	margin-top: 60px;
+	width: 390px;
+	height: 40px;
+	padding-left: 10px;
+	background: none;
+}
+.showGoods .information .priceMark >ul >li{
+	cursor: pointer;
+	float: left;
+	line-height: 22px;
+	margin-right:8px ;
+	background: #CCCCCC;
+	width: 40px;
+	height: 22px;
+	font-size: 16px;
+	padding: 2px 4px;
+	border: 1px solid #E93F30;
+}
+.showGoods .information .priceMark >ul >li:nth-child(1){
+	width: 60px;
+	background: none;
+	border: none;
+}
+/*------------绝对定位的客服部分------------*/
 .showGoods .information .desc{
 	height: 50px;
 	font-size:18px ;
@@ -220,29 +300,268 @@
     color: #333333;
     line-height: 50px;
 }
+.showGoods .information >i{
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #AAAAAA;
+    font-style: normal;
+}
+.showGoods .information .btnBox{
+	margin-top: 20px;
+	height: 40px;
+	width: 100%;
+	float: left;
+	/*background: yellow;*/
+}
+.showGoods .information .btnBox .bid{
+	cursor: pointer;
+	float: left;
+	font-size: 16px;
+	line-height: 38px;
+	width: 127px;
+	height: 40px;
+	color: white;
+	text-align: center;
+	background: #E93F30;
+}
+.showGoods .information .btnBox .bid:hover{
+	color: black;
+}
+.showGoods .information .btnBox .keep{
+	cursor: pointer;
+	margin: 0 40px;
+	float: left;
+	font-size: 16px;
+	line-height: 38px;
+	width: 125px;
+	height: 38px;
+	text-align: center;
+	background:#EBEBEB;
+	border: 1px solid #E93F30;
+}
+.showGoods .information .btnBox .transform{
+	cursor: pointer;
+	float: left;
+	font-size: 16px;
+	line-height: 38px;
+	width: 125px;
+	height: 38px;
+	text-align: center;
+	background:#EBEBEB;
+	border: 1px solid #E93F30;
+}
+/*-----------------竞拍流程--------------------*/
+.flow{
+	width: 1200px;
+	height: 174px;
+	margin: 0 auto;
+}
+.flow p{
+	width:100%;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #463B7F;
+	font-size: 20px;
+	color: #463B7F;
+}
+.flow ul{
+	width: 1070px;
+	margin: 0 auto;
+}
+.flow ul >li{
+	text-align: center;
+	width: 130px;
+	font-size: 16px;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	background: #ddd;
+	margin-left: 14px;
+	margin-top: 40px;
+}
 
+/*-------------宝贝描述 注意事项 运输 付款 等部分------------------*/
+.detailBox{
+	width: 1200px;
+	margin: 0 auto;
+}
+.detail{
+	width: 820px;
+	border: 1px dashed #AAAAAA;
+	background: #EEEEEE;
+}
+.detail ul{
+	float: left;
+	height: 28px;
+	margin-bottom: 40px;
+}
+.detail ul li{
+	cursor: pointer;
+	line-height: 28px;
+	text-align: center;
+	width: 120px;
+	height: 28px;
+	border: 1px solid #463B7F;
+	margin-top: 1px;
+	float: left;
+	font-size: 16px;
+}
+.detail ul li:nth-child(1){
+	color: white;
+	background: #463B7F;
+}
+.detail .chinese .Part1,.detail .english p{
+	padding: 0 40px;
+	clear: both;
+	font-size: 20px;
+    color: #333333;
+    line-height: 50px;
+}
+.detail .chinese .Part2{
+	clear: both;
+	padding: 0 40px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.detail .chinese i{
+	font-style: normal;
+	color: #E93F30;
+}
+.detail .chinese .Part3{
+	clear: both;
+	padding: 0 40px;
+	font-size: 14px;
+	line-height: 26px;
+}
+.detail .chinese .Part3 b{
+	font-size: 16px;
+}
+.detail .chinese .Part4{
+	clear: both;
+	padding: 0 40px;
+	font-size: 16px;
+	line-height: 26px;
+}
+.detail .chinese .Part4 i{
+	font-weight: 600;
+}
+.detail .chinese .Part1,
+.detail .chinese .Part2,
+.detail .chinese .Part3,
+.detail .chinese .Part4{
+	display: none;
+}
+.slidePic{
+	display: none;
+}
 
+/*----------------拍品展示部分-----------------*/
+.display{
+	width: 1200px;
+	margin: 0 auto;
+}
+.display p{
+	font-size: 16px;
+	width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #463B7F;
+    color: #FFFFFF;
+    margin: 50px 0;
+}
+.display ul li{
+	width: 840px;
+    height: 450px;
+    border: 1px solid #DDDDDD;
+    margin-bottom: 40px;
+    background: #FAFAFA;
+    text-align: center;
+}
+.display ul li img{
+	max-height: 450px;
+}
 
+/*-------------猜你喜欢部分--------------*/
+.like{
+	width: 1200px;
+	margin: 0 auto;
+}
+.like .leftLine{
+	width:536px ;
+	height: 2px;
+	background: #CCCCCC;
+	float: left;
+	margin-top: 12px;
+}
+.like h2 span{
+	padding: 0 26px;
+}
+.like .rightLine{
+	width:536px ;
+	height: 2px;
+	background: #CCCCCC;
+	float: right;
+	margin-top: 12px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*---------------banner部分-----------------*/
+.like .likeBanner{
+	width: 1200px;
+	height: 240px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.like .likeBanner ul{
+	width: 2500px;
+	height: 240px;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0px;
+}
+.like .likeBanner ul li{
+	width: 150px;
+	height: 220px;
+	float: left;
+	margin: 20px 45px 0px;
+	text-align: center;
+}
+.like .likeBanner ul li img{
+	width: 150px;
+}
+.like .likeBanner ul li p{
+	text-align: center;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 20px;
+    font-size: 12px;
+    font-family:"微软雅黑";
+}
+.like .leftBtn{
+	cursor: pointer;
+	position: absolute;
+	width: 20px;
+	height: 53px;
+	display: block;
+	left: 0;
+	top: 60px;
+	z-index: 10;
+	background: url(../img/left1.jpg) no-repeat left top;
+}
+.like .rightBtn{
+	cursor: pointer;
+	position: absolute;
+	width: 20px;
+	height: 53px;
+	display: block;
+	right: 0;
+	top: 60px;
+	background: url(../img/right1.jpg) no-repeat left top;
+}
 
 
 

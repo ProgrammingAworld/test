@@ -1,4 +1,8 @@
 $(function(){
+	/*---------------跳转到首页----------------*/
+	$(".skipTo").click(function(){
+		window.location.href="index.html";
+	});
 	/*--------------翻译按钮以及下边的切换部分----------------*/
 	$(".transform").click(function(){
 		if ($(this).text()=="翻译") {
@@ -99,6 +103,51 @@ $(function(){
 			"top":"+=90px"
 		},200);
 	});
+	/*-----------------like的banner图部分-----------------*/
+	$(".like .leftBtn").click(function(){
+		var oldLeft=$(".like ul").css("left");
+		oldLeft=parseFloat(oldLeft);
+		if (oldLeft>-1200) {
+			$(".like ul").animate({
+			"left":"-=240px",
+			},500);
+		}
+	});
+	
+	$(".like .rightBtn").click(function(){
+		var oldLeft=$(".like ul").css("left");
+		oldLeft=parseFloat(oldLeft);
+		if(oldLeft<0){
+			$(".like ul").animate({
+			"left":"+=240px",
+			},500);
+		}
+	});
+	/*-------------放大镜效果-----------*/
+	$(".original").mousemove(function(e){
+			var evt = e || window.event
+			$(".bigOriginal").css('display','block')
+			var ot = evt.clientY-($(".original").offset().top- $(document).scrollTop())-87;
+			var ol = evt.clientX-($(".original").offset().left- $(document).scrollLeft())-87;
+			if(ol<=0){
+				ol = 0;
+			}
+			if(ot<=0){
+				ot = 0;
+			}
+			if(ol>=175){
+				ol=175
+			}
+			if(ot>=175){
+				ot=175
+			}
+			var ott = ot/350*800
+			var oll = ol/350*800
+			$(".bigOriginal img").css({'left':-oll,'top':-ott})
+		})
+		$(".original").mouseout(function(){
+			$(".bigOriginal").css('display','none')
+		})
 });
 
 
