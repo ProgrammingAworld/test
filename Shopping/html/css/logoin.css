@@ -118,6 +118,7 @@ body{
 }
 /*-----------登录部分-----------*/
 .logo .logoForm .nameBox{
+	position: relative;
 	padding-left: 26px;
 	margin: 20px 0;
 	float: left;
@@ -125,6 +126,14 @@ body{
 	height: 42px;
 	border: 1px solid #CCCCCC;
 	background: url(../../img/user.png)no-repeat left center;
+}
+.logo .logoForm .nameBox .nameMsg{
+	position: absolute;
+	/*padding: 4px 4px;*/
+	color: red;
+	font-size: 14px;
+	right: -60px;
+	top: 10px;
 }
 .logo .logoForm .nameBox .name{
 	border: none;

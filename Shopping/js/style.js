@@ -2,7 +2,7 @@ $(function(){
 	var fixLeftIndex=0;
 	$(".fixRight,.fixLeft").fadeOut(0);
 	$(document).scroll(function(){
-		console.log($("body").scrollTop());
+		//console.log($("body").scrollTop());
 		if ($("body").scrollTop()>600) {
 			$(".fixRight,.fixLeft").fadeIn(800);
 			/*-----------拍卖会---------*/

@@ -157,6 +157,7 @@
 }
 .auction .picList li img{
 	margin-bottom: 60px;
+	height: 220px;
 }
 .auction .picList li p{
 	font-size: 16px;
@@ -165,6 +166,12 @@
 }
 .auction .picList li p:hover{
 	color:purple ;
+}
+.auction .picList li p:nth-child(2){
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
 }
 .auction .pointList{
 	margin-left: 35%;
