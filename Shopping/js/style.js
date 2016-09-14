@@ -163,27 +163,65 @@ $(function(){
 		$(">div" ,this).css("left",-($(">div" ,this).width()+80))
 	});
 
-/*-----------------like的banner图部分-----------------*/
-$(".like .leftBtn").click(function(){
-	var oldLeft=$(".like ul").css("left");
-	oldLeft=parseFloat(oldLeft);
-	if (oldLeft>-1200) {
-		$(".like ul").animate({
-		"left":"-=240px",
-		},500);
-	}
-});
+	/*-----------------like的banner图部分-----------------*/
+	$(".like .leftBtn").click(function(){
+		var oldLeft=$(".like ul").css("left");
+		oldLeft=parseFloat(oldLeft);
+		if (oldLeft>-1200) {
+			$(".like ul").animate({
+			"left":"-=240px",
+			},500);
+		}
+	});
+	
+	$(".like .rightBtn").click(function(){
+		var oldLeft=$(".like ul").css("left");
+		oldLeft=parseFloat(oldLeft);
+		if(oldLeft<0){
+			$(".like ul").animate({
+			"left":"+=240px",
+			},500);
+		}
+	});
 
-$(".like .rightBtn").click(function(){
-	var oldLeft=$(".like ul").css("left");
-	oldLeft=parseFloat(oldLeft);
-	if(oldLeft<0){
-		$(".like ul").animate({
-		"left":"+=240px",
-		},500);
-	}
-});
-
+	//跳转到列表页的部分
+	$(".picList").click(function(){
+		 window.location.href="./auction.html?group=1";
+	});
+	
+	$(".artwork .left,.artwork .more,.artwork .right").click(function(){
+		 window.location.href="./auction.html?group=2";
+	});
+	
+	$(".jewelry .more,.jewelry div").click(function(){
+		 window.location.href="./auction.html?group=3";
+	});
+	
+	$(".luxury .more,.luxury div").click(function(){
+		 window.location.href="./auction.html?group=4";
+	});
+	
+	$(".oldCar .more,.oldCar >img").click(function(){
+		 window.location.href="./auction.html?group=5";
+	});
+	
+	$(".oldCar ul").on("click",".information",function(){
+		var idStr=$(this).children("img").attr("src");
+		 var id1=idStr.split("/");
+		 var id=id1[1].split(".");
+		window.location.href="./information.html?id="+id[0];
+	});
+	
+	$(".price .right,.price").click(function(){
+		 window.location.href="./auction.html?group=5";
+	});
+	
+	$(".likeBanner ul").on("click",".information",function(){
+		 var idStr=$(this).children("img").attr("src");
+		 var id1=idStr.split("/");
+		 var id=id1[1].split(".");
+		 window.location.href="./information.html?id="+id[0];
+	});
 });
 
 

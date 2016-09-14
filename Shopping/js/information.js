@@ -1,3 +1,48 @@
+//获取url中的数据信息
+var id;
+function UrlSearch() {
+		var name, value;
+		var str = location.href; //取得地址栏的url
+		var num = str.indexOf("?"); //？ 的位置
+		str = str.substr(num + 1); //取得所有参数  获取？后面的url内容。
+		var arr=str.split("=");
+		id=arr[1];
+		//alert(id)
+	}
+UrlSearch();
+//启动ajax获取数据
+	var ajaxUrl = "http://localhost:8080/product/GetProductById_get?id="+id;
+		$.ajax({
+			url: ajaxUrl,
+			success: function(result) {
+				var dataObj = JSON.parse(result.Data);
+				var reckonStr=dataObj.reckon.split("-");
+				//设置图片地址
+				$(".picNav ul >li:eq(0) img").attr({
+					"src":"img/"+dataObj.id+".jpg"
+				});
+				$(".goodsPicBox .goodsPic >img").attr({
+					"src":"img/"+dataObj.id+".jpg"
+				});
+				$(".bigOriginal >img").attr({
+					"src":"img/"+dataObj.id+".jpg"
+				});
+				//填充商品数据信息
+				$(".desc").text(dataObj.goodsName);
+				$(".saleTime >span").text(dataObj.saleTime);
+				$(".address >span").text(dataObj.address);
+				$(".price span:eq(0)").text(dataObj.price);
+				$(".price span:eq(1)").text(dataObj.reckon);
+				$(".priceMark ul>li:eq(1)").text(dataObj.reckon);
+				$(".priceMark ul>li:eq(2)").text(dataObj.reckon);
+				$(".priceMark ul>li:eq(3)").text(dataObj.reckon);
+			},
+			error: function() {
+				alert("获取页面失败");
+			},
+			dataType: "json"
+		});
+
 $(function(){
 	/*---------------跳转到首页----------------*/
 	$(".skipTo").click(function(){
@@ -126,7 +171,10 @@ $(function(){
 	/*-------------放大镜效果-----------*/
 	$(".original").mousemove(function(e){
 			var evt = e || window.event
-			$(".bigOriginal").css('display','block')
+			$(".bigOriginal").css({
+				'display':'block',
+				"background":"#ccc"
+				})
 			var ot = evt.clientY-($(".original").offset().top- $(document).scrollTop())-87;
 			var ol = evt.clientX-($(".original").offset().left- $(document).scrollLeft())-87;
 			if(ol<=0){
