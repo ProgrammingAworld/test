@@ -18,7 +18,7 @@
 	color: #463B7F;
 }
 .showGoods{
-	overflow: hidden;
+	/*overflow: hidden;*/
 	padding-top: 6px;
 	width: 1070px;
 	height: 562px;
@@ -174,10 +174,10 @@
 	line-height: 22px;
 	margin-right:8px ;
 	background: #CCCCCC;
-	width: 40px;
+	/*width: 40px;*/
 	height: 22px;
 	font-size: 16px;
-	padding: 2px 4px;
+	padding: 2px 0px;
 	border: 1px solid #E93F30;
 }
 .showGoods .information .priceMark >ul >li:nth-child(1){
@@ -226,12 +226,28 @@
 	width: 200px;
 }
 .showGoods .information .myPrice i{
+	position: relative;
 	font-style: normal;
 	font-size: 8px;
 	background: red;
 	color: white;
 	padding: 4px 10px;
 	border-radius: 5px;
+}
+.showGoods .information .myPrice i img{
+	position: absolute;
+	/*cursor: pointer;*/
+	top: 30px;
+	left: -50px;
+	 z-index: 1;
+}
+.showGoods .information .myPrice i span{
+	position: absolute;
+	cursor: pointer;
+    left: 220px;
+    top: 40px;
+    color: #454646;
+    z-index: 1;
 }
 .showGoods .information .mark{
 	position: relative;
@@ -265,6 +281,10 @@
 .showGoods .information .mark >div:nth-child(2) p{
 	padding-left: 10px;
 	margin-top: 6px;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #333333;
 }
 .showGoods .information .mark >div:nth-child(3){
 	padding-top: 20px;
@@ -302,6 +322,10 @@
     text-overflow: ellipsis;
     color: #333333;
     line-height: 50px;
+    margin-bottom: 20px;
+}
+.showGoods .information .money span{
+	color: #E93F30;
 }
 .showGoods .information >i{
 	white-space: nowrap;
@@ -533,7 +557,8 @@
 	text-align: center;
 }
 .like .likeBanner ul li img{
-	width: 150px;
+	max-height: 150px;
+	max-width: 150px;
 }
 .like .likeBanner ul li p{
 	text-align: center;

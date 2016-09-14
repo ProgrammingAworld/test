@@ -198,11 +198,11 @@ $(function(){
 	});
 	
 	$(".luxury .more,.luxury div").click(function(){
-		 window.location.href="./auction.html?group=4";
+		 window.location.href="./auction.html?group=1";
 	});
 	
 	$(".oldCar .more,.oldCar >img").click(function(){
-		 window.location.href="./auction.html?group=5";
+		 window.location.href="./auction.html?group=4";
 	});
 	
 	$(".oldCar ul").on("click",".information",function(){
@@ -221,6 +221,20 @@ $(function(){
 		 var id1=idStr.split("/");
 		 var id=id1[1].split(".");
 		 window.location.href="./information.html?id="+id[0];
+	});
+	
+	//拍卖会部分的页面刷新
+	$(".pointList").on("click","li",function(){
+		
+		var lis=$(".pointList").children("li");
+		$.each(lis, function(index,value) {
+			$(value).removeClass("active");
+		});
+		$(this).addClass("active");
+		//alert($(".picList").offset().left);
+		//var nowLeft=parseFloat($(".picList").css("left"));
+		var text=Number($(this).text()-1);
+		$(".picList").css("left",-300*text+"px");
 	});
 });
 

@@ -142,7 +142,7 @@
 	float: right;
 }
 .auction .picList{
-	position: absolute;
+	position: relative;
 	margin-top: 30px;
 	margin-bottom: 40px;
 	float: left;
@@ -181,6 +181,7 @@
 	margin-left: 35%;
 }
 .auction .pointList li{
+	cursor: pointer;
 	float: left;
 	width: 25px;
 	height: 25px;
@@ -207,8 +208,8 @@
 	color: purple;
 	text-decoration: none;
 }
-.auction .pointList .active{
-	background: #463B7F;
+/*.auction .pointList */.active{
+	background: #463B7F!important;
 }
 /*-----------艺术品精选-----------------*/
 .artwork{
