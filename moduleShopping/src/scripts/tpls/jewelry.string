@@ -1,0 +1,39 @@
+<!--***********珠宝部分*************-->
+		<div class="jewelry">
+			<h2>
+				<img src="img/zhubao.jpg"/>
+				<span class="more">查看更多&gt;</span>
+				<div class="leftLine"></div>
+				<span>戒指/项链/耳环</span>
+				<div class="rightLine"></div>
+			</h2>
+			<div class="left">
+				<ul>
+					<li>
+						<img src="img/1464715699800.jpg" />
+						<p>Lot 3425: Genuine 4.50 CTW Micro Pave Diamond Certified</p>
+						<p>起拍价:<span>$1</span></p>
+						<p>估计报价:<span>$9,100-$11,200</span></p>
+						<p>2016-06-19 21:00:00</p>
+					</li>
+					<li>
+						<img src="img/1464137814875.jpg" />
+						<p>Lot 3425: Genuine 4.50 CTW Micro Pave Diamond Certified</p>
+						<p>起拍价:<span>$1</span></p>
+						<p>估计报价:<span>$15,900-$22,250</span></p>
+						<p>2016-06-19 21:00:00</p>
+					</li>
+				</ul>
+			</div>
+			<div class="center">
+				<img src="img/zhubao1.jpg" />
+			</div>
+			<div class="right">
+				<ul>
+					<li><img src="img/zhubao2.jpg" /></li>
+					<li><img src="img/zhubao3.jpg" /></li>
+					<li><img src="img/zhubao4.jpg" /></li>
+					<li><img src="img/zhubao5.jpg" /></li>
+				</ul>
+			</div>
+		</div>

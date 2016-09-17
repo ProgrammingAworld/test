@@ -1,0 +1,181 @@
+<!--************具体商品部分***************-->
+		<div class="location">
+			当前位置 :
+			<span class="skipTo"><!--首页 &gt;--></span>
+			<span><!--老爷车 &gt;--></span>
+			<span><!--老爷车详情--></span>
+		</div>
+		<div class="showGoods">
+			<div class="picNav">
+				<span class="leftBtn"></span>
+				<span class="rightBtn"></span>
+				<ul>
+					<li>
+						<img src="img/6373653-lancia-fulvia-1-3-s-coup-19722.jpg" />
+					</li>
+					<!--<li>
+						<img src="img/6373653-lancia-fulvia-1-3-s-coup-19722.jpg" />
+					</li>
+					<li>
+						<img src="img/6373653-lancia-fulvia-1-3-s-coup-19722.jpg" />
+					</li>
+					<li>
+						<img src="img/6373653-lancia-fulvia-1-3-s-coup-19722.jpg" />
+					</li>
+					<li>
+						<img src="img/6373653-lancia-fulvia-1-3-s-coup-19722.jpg" />
+					</li>
+					<li>
+						<img src="img/6373653-lancia-fulvia-1-3-s-coup-19722.jpg" />
+					</li>
+					<li>
+						<img src="img/6373653-lancia-fulvia-1-3-s-coup-19722.jpg" />
+					</li>-->
+				</ul>
+			</div>
+			<div class="goodsPicBox">
+				<div class="goodsPic original">
+					<img src="img/6373653-lancia-fulvia-1-3-s-coup-19722.jpg" />
+					<span class="shadow"></span>
+					<span></span>
+				</div>
+				<div class="bigOriginal">
+					<img src="img/6373653-lancia-fulvia-1-3-s-coup-19722.jpg" />
+				</div>
+				<span>浏览3</span>
+				<span>收藏0</span>
+			</div>
+
+			<!--*********右侧的商品信息部分***********-->
+			<div class="information">
+				<!--********定位部分*********-->
+				<div class="kefu">
+					<img src="img/kefuGif.gif" />
+					<span>联系客服</span>
+				</div>
+				<div class="priceMark">
+					<ul>
+						<li>建议价 :</li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<!--************具体的商品信息部分**************-->
+				<p class="desc"></p>
+				<p class="saleTime">
+					开拍时间 : <span></span>
+				</p>
+				<p class="address">
+					开拍地点 :<span></span>
+				</p>
+				<p class="price">
+					起拍价 : <span></span> 估计报价 :
+					<span></span>
+				</p>
+				<p class="myPrice">
+					我的报价 €<input type="text" maxlength="8"/>
+					<i>
+						出价规则
+						<img src="img/detail_gui.png" class="rules"/>
+						<span>X</span>
+					</i>
+				</p>
+				<div class="mark">
+					<p>温馨提示</p>
+					<div>
+						<p>境外拍卖行佣金(30%) :<span>未知</span></p>
+						<p>拍库平台服务费(10%) :<span>未知</span></p>
+					</div>
+					<div>
+						<p>保险费 : 如需上保险请联系客服<span class="slideMark">?</span></p>
+						<p>运费和代运服务费以实际为准</p>
+					</div>
+					<img src="img/detail_ke.png" class="slidePic" />
+				</div>
+				<p class="agree">
+					<input type="checkbox" checked="checked" /> 我已同意阅读这拍卖的<b>《条款与协议》</b>
+				</p>
+				<p class="money">
+					合计金额 :<span></span>
+				</p>
+				<i>温馨提示 : 距离开拍之前24小时内不可取消报价</i><br />
+				<div class="btnBox">
+					<p class="bid">立即出价</p>
+					<p class="keep">收藏</p>
+					<p class="transform">翻译</p>
+				</div>
+			</div>
+		</div>
+		<!--**************惊怕流程****************-->
+		<div class="flow">
+			<p>竞拍流程</p>
+			<ul>
+				<li>1 充值保障金</li>
+				<li>2 出价</li>
+				<li>3 等待竞拍</li>
+				<li>4 竞拍成功</li>
+				<li>5 计算货款</li>
+				<li>6 支付贷款</li>
+				<li>7 确认收货</li>
+			</ul>
+		</div>
+		<!--***********宝贝描述 注意事项 运输 付款 等部分*************-->
+		<div class="detailBox">
+			<div class="detail">
+				<ul>
+					<li>宝贝描述</li>
+					<li>注意事项</li>
+					<li>运输</li>
+					<li>付款</li>
+				</ul>
+				<div class="chinese">
+					<div class="Part1">
+						<p></p>
+					</div>
+					<div class="Part2">
+						<p><i>敬告：您的出价行为表明已经认同了拍库网的拍卖规则。不论成功与否，你都承担与之相应的法律行为。</i></p>
+						<p>注意：根据《拍卖法》的规定：买受人应当按照约定支付拍卖标的的价款，未按照约定支付价款的，应当承担违约责。通过竞买取得的拍品为特殊属性之商品，属于2014年3月15日起施行的《中华人民共和国消费者权益保护法》规定的“其他根据商品性质并经消费者在购买时确认不宜退货的商品，不适用无理由退货”。为了维护买卖双方的利益，规范网络拍卖市场的行为，如果因实物与描述明显不符，客户对拍品有退货的诉求，请在提货之日起7个工作日之内、物流发货请在签收之日起7个工作日内提出，逾期不予受理。不便之处，敬请谅解。</p>
+					</div>
+					<div class="Part3">
+						<p><b>西方资产储备运输和处理:</b></p>
+						<p>由于我们的拍品来自于全球多家拍卖行，各拍卖行的运输方式以及运费也不尽相同。买家所支付的费用中，运费为暂定数额，我们在协助买家运回拍品时，会及时与买家联系，告知其运输实际费用并收取差价。</br>鉴于每件拍品竞拍时间不同，支付时间也不同，我们无法提供准确的到货时长，但我们保证，发货后7到10个工作日内买家可收到货品，请耐心等待。我们会提供运单跟踪，方便买家查询物流状态。</p>
+					</div>
+					<div class="Part4">
+						<p><b>付款方式</b></p>
+						<p>目前充值到平台的金额仅用作保证金，不可抵扣货款。支付货款请打至拍库网指定账户，如下： 账户名：拍库（北京）科技有限公司；开户行：招商银行股份有限公司北京朝外大街支行； 账号：<i>1109 1863 6510 601</i>。支付宝：：<i>webserver@pecoo.com</i>（请您在转账时在备注处填写您的用户名和手机号）;为保证您的权益，付款时请仔细核对账户，以免造成您的损失，谢谢</p>
+					</div>
+				</div>
+				<div class="english">
+					<p></p>
+				</div>
+			</div>
+		</div>
+		<!--************宝贝展示部分***************-->
+		<div class="display">
+			<p>拍品展示</p>
+			<ul>
+				<li>
+					<img src=""/>
+				</li>
+				<li>
+					<img src=""/>
+				</li>
+			</ul>
+		</div>
+		
+		<!--*************猜你喜欢部分**************-->
+		<div class="like">
+			<h2>
+				<div class="leftLine"></div>
+				<span>猜你喜欢</span>
+				<div class="rightLine"></div>
+			</h2>
+			<!--**********图片展示的banner图部分*************-->
+			<div class="likeBanner">
+				<span class="leftBtn"></span>
+				<ul>
+				</ul>
+				<span class="rightBtn"></span>
+			</div>
+		</div>

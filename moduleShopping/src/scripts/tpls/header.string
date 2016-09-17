@@ -1,0 +1,60 @@
+		<!--登录部分-->
+		<div class="headerbox" name="top">
+			<div class="header">
+				<ul>
+					<li>Hi,欢迎进入拍库!</li>
+					<li><a href="html/login.html">登录</a></li>
+					<li><a href="html/login.html">注册</a></li>
+					<li><a href="#">通知</a></li>
+					<li>
+						<span><img src="img/tel.png"/></span>
+						联系客服
+						<div class="tel">
+							<p>电话：</p>
+							<p>400-1111-2016</p>
+						</div>
+					</li>
+					<li>
+						<img src="" /> 拍库手机
+						<div class="erweima">
+							<div class="left">
+								<img src="img/erweima3.png" />
+								<p><a href="#">App下载</a></p>
+							</div>
+							<div class="right">
+								<img src="img/erweima2.png" />
+								<p><a href="#">微信关注</a></p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--**************logo部分*****************-->
+		<div class="logobox">
+			<div class="logo">
+				<h1><img src="img/logo.png"/></h1>
+				<h2><img src="img/gif.gif"/></h2>
+				<div class="search">
+					<input type="text" placeholder="请输入搜索内容" style="padding-left:4px;font-size: 16px;font-weight: 600;" />
+					<div class="btn">搜索</div>
+					<ul>
+						<li>热门搜索:</li>
+						<li>劳力士</li>
+						<li>紫檀</li>
+						<li>浪琴</li>
+						<li>百达翡丽</li>
+					</ul>
+				</div>
+				<div class="shopCart">
+					<span>我的拍品</span>
+					<ul>
+						<li><a href="#">竞拍中()</a></li>
+						<li><a href="#">竞拍成功()</a></li>
+						<li><a href="#">已付款()</a></li>
+						<li><a href="#">已买拍品()</a></li>
+						<li><a href="#">竞拍失败()</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>

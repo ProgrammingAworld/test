@@ -1,0 +1,9 @@
+<!--*************老爷车部分***************-->
+		<div class="oldCar" name="oldCar">
+			<img src="img/cheBana.jpg" />
+			<h2>
+				<img src="img/oldCar.jpg" />
+				<span class="more">查看更多&gt;</span>
+			</h2>
+			<ul></ul>
+		</div>

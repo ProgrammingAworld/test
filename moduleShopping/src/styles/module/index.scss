@@ -1,0 +1,163 @@
+/* CSS Document */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+form,
+img,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+blockquote,
+fieldset,
+div,
+strong,
+label,
+em {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+input,
+button {
+    margin: 0;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+body {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c00;
+    text-decoration: underline;
+}
+
+.area {
+    /*width: 100%;*/
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.js {
+    position: relative;
+    width: 100%;
+    height: 512px;
+    margin: 0 auto;
+}
+
+.prevBtn {
+    BACKGROUND: url(../../../img/slide_btn.png) no-repeat 40px 0;
+    HEIGHT: 100px;
+    WIDTH: 40px;
+    display: block;
+    position: absolute;
+    top: 200px;
+}
+.area:hover .prevBtn{
+    opacity: 0.6;
+    BACKGROUND: url(../../../img/slide_btn.png) no-repeat;
+}
+.area:hover .nextBtn{
+    opacity: 0.6;
+    BACKGROUND: url(../../../img/slide_btn.png) no-repeat -40px top;
+}
+.area img{
+    width: 1016px;
+    height: 512px;
+}
+.nextBtn {
+    z-index: 10;
+    BACKGROUND: url(../../../img/slide_btn.png) no-repeat -40px top;
+    HEIGHT: 100px;
+    WIDTH: 40px;
+    display: block;
+    position: absolute;
+    right: 4px;
+    top: 200px;
+}
+
+.imgSelected {
+    BACKGROUND: url(../../../img/jsNav.png) no-repeat;
+}
+.bg {
+    width: 300px;
+    padding-top: 1px;
+    background: url(../../../img/bg01.png) no-repeat;
+    _background: none;
+//  /*IE6*/
+//  _filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="img/bg01.png");
+//  /*IE6*/
+    height: 34px;
+    left: 37%;
+    FONT-WEIGHT: bold;
+    top: 480px;
+    position: absolute;
+}
+
+.jsNav {
+    position: absolute;
+    left: 420px;
+    top: 480px;
+}
+
+.jsNav a {
+    width: 40px;
+    font-size: 14px;
+    margin-right: 6px;
+    display: inline;
+    height: 33px;
+    line-height: 33px;
+    display: block;
+    float: left;
+    text-align: center;
+    color: #fff;
+}
+
+.jsNav a:hover {
+    background: url(../../../img/bg01.gif) no-repeat;
+    color: #FF1555;
+    text-decoration: none;
+}
+
+.jsNav .imgSelected {
+    background: url(../../../img/bg01.gif) no-repeat;
+    color: #FF1555;
+}
+
+.qq {
+    display: none;
+    z-index: 200
+}

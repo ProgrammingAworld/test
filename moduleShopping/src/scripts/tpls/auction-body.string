@@ -1,0 +1,39 @@
+<!--***************主要内容*************************-->
+		<div class="goodsBox">
+			<div class="showGoods">
+				<div class="location">
+					<div class="left">
+						当前位置 :<span> 拍卖会&gt;</span>
+						<span>DECORATOR AUCTION (154 Lots)</span>
+					</div>
+					<div class="right">
+						总共<span></span>件商品
+					</div>
+				<div class="nav">
+						<!--<img src="img/H1072-C102070713_mid.jpg" />
+						<span>开拍时间:2016/09/07 13:00:00</span>-->
+						<p>收藏</p>
+						<span>5</span>
+						<span></span>	
+				</div>
+				<ul class="goods">
+				</ul>
+				
+				<div class="pageIndex">
+					<span class="goodsCount">
+						总共<span></span>件商品
+					</span>
+					<select>
+						<option>第1页</option>
+						<option class="none">第2页</option>
+					</select>
+					<ul>
+						<li>&lt;</li>
+						<li class="active">1</li>
+						<li class="none">2</li>
+						<li>&gt;</li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		</div>

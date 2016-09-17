@@ -1,0 +1,14 @@
+<!--*************猜你喜欢部分**************-->
+		<div class="like">
+			<h2>
+				<div class="leftLine"></div>
+				<span>猜你喜欢</span>
+				<div class="rightLine"></div>
+			</h2>
+			<!--**********图片展示的banner图部分*************-->
+			<div class="likeBanner">
+				<span class="leftBtn"></span>
+				<ul></ul>
+				<span class="rightBtn"></span>
+			</div>
+		</div>

@@ -1,0 +1,39 @@
+<!--****************奢侈品名表部分****************-->
+		<div class="luxury" name="luxury">
+			<h2>
+				<img src="img/shechipin.jpg"/>
+				<span class="more">查看更多&gt;</span>
+				<div class="leftLine"></div>
+				<span>名表</span>
+				<div class="rightLine"></div>
+			</h2>
+			<div class="left">
+				<ul>
+					<li>
+						<img src="img/1462831290703.jpg" />
+						<p>Lot 3425: Genuine 4.50 CTW Micro Pave Diamond Certified</p>
+						<p>起拍价:<span>$1</span></p>
+						<p>估计报价:<span>$9,100-$11,200</span></p>
+						<p>2016-06-19 21:00:00</p>
+					</li>
+					<li>
+						<img src="img/1462831296801.jpg" />
+						<p>Lot 3425: Genuine 4.50 CTW Micro Pave Diamond Certified</p>
+						<p>起拍价:<span>$1</span></p>
+						<p>估计报价:<span>$15,900-$22,250</span></p>
+						<p>2016-06-19 21:00:00</p>
+					</li>
+				</ul>
+			</div>
+			<div class="center">
+				<img src="img/shechipin1.jpg" />
+			</div>
+			<div class="right">
+				<ul>
+					<li><img src="img/shechipin2.jpg" /></li>
+					<li><img src="img/shechipin3.jpg" /></li>
+					<li><img src="img/shechipin4.jpg" /></li>
+					<li><img src="img/shechipin5.jpg" /></li>
+				</ul>
+			</div>
+		</div>

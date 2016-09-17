@@ -1,0 +1,39 @@
+<!--*****************登录部分*****************-->
+		<div class="logobox">
+			<div class="logo">
+				<img src="../img/bg.jpg" />
+				<div class="logoForm">
+					<div class="logoin">登录</div>
+					<div class="register">注册</div>
+		<!--*************具体登录的代码块************-->
+					<div class="logoPart">
+						<div class="nameBox">
+						<input type="text" class="name" placeholder="用户名/电话号码" style="font-size: 16px;line-height: 30px;font-family: '微软雅黑';margin-top: 6px;" />
+						<span class="nameMsg"></span>
+					</div>
+					<div class="pwdBox">
+						<input type="password" class="pwd" placeholder="密码" style="font-size: 16px;line-height: 30px;font-family: '微软雅黑';margin-top: 6px;"/>
+					</div>
+					<div class="vipLogo">会员登录</div>
+					<span class="qq"><a href="#">使用QQ登录</a></span>
+					<a href="#">忘记密码?</a>
+					</div>
+		<!--********************具体注册的代码块*******************-->
+				<div class="registerPart">
+					<div class="telBox">
+						<input type="text" class="tel"placeholder="请输入手机号"style="font-size: 16px;line-height: 30px;font-family: '微软雅黑';margin-top: 6px;"/>	
+					<span class="confirmTelMsg"></span>	
+					</div>
+					<div class="setPwdBox">
+						<input type="password" class="setPwd" placeholder="设置密码:长度为6~16位字符"style="font-size: 16px;line-height: 30px;font-family: '微软雅黑';margin-top: 6px;"/>
+					</div>
+					<div class="confirmPwdBox">
+						<input type="password" class="confirmPwd" placeholder="确认密码"style="font-size: 16px;line-height: 30px;font-family: '微软雅黑';margin-top: 6px;"/>
+						<span class="confirmMsg"></span>
+					</div>
+					<input type="checkbox" checked="checked"/>我已阅读并同意 《拍库用户注册协议》
+					<div class="registerNow">立即注册</div>
+				</div>
+			</div>
+		</div>
+		</div>

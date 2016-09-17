@@ -1,0 +1,31 @@
+<!--************定位的部分**************-->
+		<a href="html/login.html" class="register">注册</a>
+		<img src="img/kefuGif.gif" class="kefu"/>
+		<ul class="fixRight">
+			<li>
+				<div>拍品<span>0</span>件</div>
+			</li>
+			<li>
+				<div>请输入您想要的商品名称</div>
+			</li>
+			<li>
+				<div>收藏</div>
+			</li>
+			<li>
+				<div>客服</div>
+			</li>
+			<li>
+				<a href="#top">
+					<img src="img/fixright_top.png"/>
+					TOP
+				</a>
+			</li>
+		</ul>
+		<ul class="fixLeft">
+			<li>拍卖会</li>
+			<li>2F</li>
+			<li>3F</li>
+			<li>4F</li>
+			<li>5F</li>
+			<li>6F</li>
+		</ul>

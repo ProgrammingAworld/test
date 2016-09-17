@@ -1,0 +1,403 @@
+body,p,ul,dl,ol,li,h1,h2,h3,h4,h5,h6,fieldset,legend,dl,dd,dt,img{margin:0; padding:0;}
+body{font:12px "微软雅黑";}
+ul,li{list-style:none;}
+a{text-decoration:none; color:#666;}
+img,input{border:0;}
+/*---------------header部分-----------------------*/
+.headerbox{
+    height: 30px;
+}
+.header{
+    height: 30px;
+    width:1200px;
+    margin: 0 auto;
+}
+.header ul{
+    font-size: 12px;
+    color: #999;
+    float: right;
+}
+.header li{
+    margin-left: 20px;
+    float: left;
+    line-height: 30px;
+}
+.header li{
+    cursor: pointer;
+}
+.header li:nth-child(1){
+    cursor: auto;
+}
+.header li a{
+    font-size: 12px;
+    color: #999;
+}
+.header li:nth-child(5),.header li:nth-child(6){
+    margin-left: 10px;
+    padding-right: 10px;
+    background: url(../../img/san.png) no-repeat right center;
+}
+.header li:nth-child(5),.header li:nth-child(5){
+    position: relative;
+    
+}
+.header li:nth-child(5):hover .tel{
+    display: block;
+}
+.header li:nth-child(5):hover span{
+    background: url(../../img/tel2.png);
+}
+.header li:nth-child(6):hover .erweima{
+    display: block;
+}
+.tel{
+    width: 120px;
+    height: 50px;
+    display: none;
+    padding-left: 20px;
+    color: purple;
+    position: absolute;
+    border: 1px solid #EEEEEE;
+    border-top: 0px;
+    top: 30px;
+    right: 0px; 
+    background: white;
+    z-index: 10;
+}
+.tel p{
+    line-height: 20px;
+}
+.erweima{
+    z-index: 10;
+    background: white;
+    display: none;
+    width: 166px;
+    height: 95px;
+    padding-left: 12px;
+    border: 1px solid #eee;
+    border-top: 0px;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+}
+.erweima div{
+    float: left;
+    margin-right: 10px;
+}
+.erweima div p a{
+    padding: 10px;  
+    color: blue;
+}
+.erweima img{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+
+
+/*-------------logo部分----------------*/
+.logobox{
+    height: 100px;
+}
+.logo{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+.logo h1{
+    width: 52px;
+    height: 100px;
+    float: left;
+    margin-right: 18px;
+}
+.logo h2{
+    width: 120px;
+    height: 100px;
+    float: left;
+}
+.search{
+    float: left;
+    padding-top: 20px;
+    margin-left: 120px;
+}
+.logo .search li{
+    margin-left: 10px;
+    font-size: 12px;
+    float: left;
+}
+.logo .search ul li:nth-child(1){
+    color:#454646;
+}
+.logo input{
+    float: left;
+    width: 507px;
+    height: 36px;
+    border: 2px solid #463B7F;
+}
+.logo .btn{
+    text-align: center;
+    line-height: 42px;
+    font-size: 18px;
+    /*font-weight: 600;*/
+    color: white;
+    background:#463B7F;
+    float: left;
+    width: 65px;
+    height: 42px;
+}
+.logo .shopCart{
+    position: relative;
+    margin-left: 74px;
+    margin-top: 24px;
+    padding-right: 16px;
+    float: left;
+    width: 154px;
+    height: 33px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid #463B7F;
+    background: url(../../img/paipinCar.png) no-repeat top 12px left 19px;
+}
+.logo .shopCart span{
+    text-align: center;
+    width: 140px;
+    float: right;
+    background: url(../../img/paipinSan.png) no-repeat right center;
+}
+.logo .shopCart:hover ul{
+    display: block;
+}
+.logo .shopCart >ul{
+    display: none;
+    position: absolute;
+    width: 170px;
+    border: 1px solid #800080;
+    top: 33px;
+    left: -1px;
+    background: white;
+    z-index: 100;
+}
+.logo .shopCart >ul li:hover a{
+    color: red;
+    text-decoration: none;
+}
+
+/*-------------banner部分--------------*/
+.banner{
+    width: 1200px;
+    margin: 40px auto 0;
+    position: relative;
+}
+.banner .nav{
+    width: 1200px;
+    height: 40px;
+    float: left;
+}
+
+.banner .nav >li{
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    color: #333;
+    line-height: 40px;
+    padding: 0 19px;
+    margin: 0 10px;
+}
+.banner .nav >li:hover{
+    color: red;
+}
+.banner .nav >li:nth-child(1){
+    position: relative;
+    width: 150px;
+    text-align: center;
+    color: white;
+    background: #382f6b;
+}
+.banner .nav .navMenu{
+    text-align: left;
+    position:absolute ;
+    width: 184px;
+    top: 40px;
+    left: 0;
+    border: 1px solid #463B7F;
+}
+.banner .nav .navMenu >li{
+    width: 153px;
+    height: 91px;
+    padding: 0 17px;
+    padding-top: 10px;
+    border-bottom: 1px dashed   white;
+}
+.banner .nav .navMenu >li:nth-child(5){
+    border: 0;
+}
+.banner .nav .navMenu li:nth-child(1),
+.banner .nav .navMenu li:nth-child(3),
+.banner .nav .navMenu li:nth-child(5){
+    background-color: #463B7F;
+}
+.banner .nav .navMenu li:nth-child(2),
+.banner .nav .navMenu li:nth-child(4){
+    background-color: #382F6B;
+}
+.banner .nav .navMenu li >a{
+    color: white;
+    line-height: 30px;
+    font-size:12px;
+}
+.banner .nav .navMenu li >a:nth-child(1){
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.banner .nav .navMenu .show{
+    background: white;
+    position: absolute;
+    width: 200px;
+    height: 512px;
+    border: 1px solid #382F6B;
+    left: 186px;
+    top: -0px;
+    background: white;
+    padding-left: 16px;
+    display: none;
+}
+.banner .nav .navMenu .show a{
+    color: black;
+    border-left: 1px solid #ccc;
+    font-size: 14px;
+    padding:0 10px;
+}
+.banner .nav .navMenu .show a:hover{
+    color: purple;
+    text-decoration: none;
+}
+.banner .nav .navMenu li:hover .show{
+    display: block;
+    z-index: 100;
+}
+
+/*-------------footer部分--------------*/
+.footerBox{
+    padding-top: 20px;
+    background: red;
+    height: 400px;
+    background: url(../../img/ditu.jpg) no-repeat right 40px top -10px;
+}
+.footer{
+    clear: both;
+    width: 1200px;
+    /*height: 160px;*/
+    margin: 0 auto;
+    
+}
+.footer >ul{
+    float: left;
+    height: 150px;
+    margin-right:100px;
+    margin-bottom: 10px;
+    /*background: red;*/
+}
+.footer >ul li:nth-child(1){
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+.footer >ul li a{
+    font-size: 14px;
+    color: #999999;
+    line-height: 22px;
+}
+.footer >ul li a:hover{
+    color: purple;
+    text-decoration: none;
+}
+.footer >ul:nth-child(5) li:nth-child(2){
+    font-size: 16px;
+}
+
+.footerBox .footerNav{
+    clear: both;
+    width: 100%;
+    height: 38px;
+    background: #463b7f;
+}
+.footerBox .footerNav ul{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.footerBox .footerNav ul li{
+    float: left;
+    color: white;
+    text-align: center;
+    padding-left: 100px;
+    font: 14px/38px "microsoft yahei";
+}
+.footerBox .footerNav ul li:nth-child(1) span{
+    float: left;
+    width: 23px;
+    height: 38px;
+    margin-right: 4px;
+    background: url(../../img/footerbg.png) no-repeat 0 8px;
+}
+.footerBox .footerNav ul li:nth-child(2) span{
+    float: left;
+    width: 23px;
+    height: 38px;
+    margin-right: 4px;
+    background: url(../../img/footerbg.png) no-repeat -30px 8px;
+}
+.footerBox .footerNav ul li:nth-child(3) span{
+    float: left;
+    width: 23px;
+    height: 38px;
+    margin-right: 4px;
+    background: url(../../img/footerbg.png) no-repeat -60px 8px;
+}
+.footerBox .footerNav ul li:nth-child(4) span{
+    float: left;
+    width: 23px;
+    height: 38px;
+    margin-right: 4px;
+    background: url(../../img/footerbg.png) no-repeat -90px 8px;
+}
+.footerBox .footerNav ul li:nth-child(5) span{
+    float: left;
+    width: 25px;
+    height: 38px;
+    margin-right: 4px;
+    background: url(../../img/footerbg.png) no-repeat -116px 8px;
+}
+.footerBox .footerRight{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footerBox .footerRight .left{
+    float: left;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #999;
+}
+.footerBox .footerRight .left{
+    margin-top: 40px;
+}
+.footerBox .footerRight .right{
+    margin-top: 10px;
+    float: right;
+}
+.footerBox .footerRight .right .phone,.footerBox .footerRight .right .weixin{
+    float: left;
+    width: 110px;
+    height: 140px;
+    margin-right: 100px;
+    text-align: center;
+}
+.footerBox .footerRight .right img{
+    width: 110px;
+    height: 110px;
+}
+.footerBox .footerRight .right p{
+    font-size: 16px;
+}

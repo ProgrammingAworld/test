@@ -1,0 +1,19 @@
+<!--**********头部部分*****************-->
+		<div class="headerbox">
+			<div class="header">
+				<a href="#" class="show">
+					拍库手机<span></span>
+					<div class="erweima">
+						<div class="left">
+							<img src="../img/erweima3.png"/>
+							<p>App下载</p>
+						</div>
+						<div class="right">
+							<img src="../img/erweima2.png"/>
+							<p>微信关注</p>
+						</div>
+					</div>
+				</a>
+				<a href="../index.html">返回首页</a>
+			</div>
+		</div>

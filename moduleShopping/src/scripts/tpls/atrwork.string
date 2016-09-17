@@ -1,0 +1,57 @@
+<!--************艺术品精选部分**************-->
+		<div class="artwork" name="artwork">
+			<h2>
+				<img src="img/arts.jpg"/>
+				<span class="more">查看更多&gt;</span>
+				<div class="leftLine"></div>
+				<span>艺术品/古董</span>
+				<div class="rightLine"></div>
+			</h2>
+			<div class="left">
+				<ul>
+					<li>艺术品</li>
+					<li>玉制珠宝</li>
+					<li>碗类</li>
+					<li>玻璃制碗</li>
+					<li>观音塑像</li>
+					<li>珠宝</li>
+					<li>钟表</li>
+					<li>墙面装饰</li>
+					<li>银制品类</li>
+					<li>乐器</li>
+					<li>项链配饰</li>
+					<li>陶瓷制碗</li>
+					<li>镯类</li>
+					<li>甁类</li>
+					<li>青瓷碗类</li>
+					<li>茶壶茶具</li>
+					<li>瓷制瓶</li>
+					<li>烛台</li>
+					<li>画作精品</li>
+					<li>盘类</li>
+					<li>毯类</li>
+				</ul>
+				<ul>
+					<li>古董</li>
+					<li>鼻烟壶</li>
+					<li>镜类</li>
+					<li>印章类</li>
+					<li>古玩杂项</li>
+					<li>砚类</li>
+					<li>剑类</li>
+					<li>狮雕像</li>
+					<li>箱盒类</li>
+					<li>檀家具</li>
+					<li>传统服饰</li>
+					<li>桌类</li>
+					<li>簪类</li>
+					<li>屏风类</li>
+					<li>马类雕塑</li>
+					<li>吊坠</li>
+					<li>罐类</li>
+				</ul>
+			</div>
+			<div class="right">
+				<ul></ul>
+			</div>
+		</div>

@@ -1,0 +1,118 @@
+<!--*************banner图的部分**************-->
+		<div class="bannerbox">
+			<div class="banner">
+				<ul class="nav">
+					<li>
+						全部分类
+						<ul class="navMenu">
+							<li>
+								<a href="#">
+									艺术品<br />
+									Works of art
+								</a>
+								<a href="#">瓷器</a>
+								<a href="#">印章类</a>
+								<a href="#">字画类</a>
+								<div class="show">
+									<a href="#">画作</a>
+									<a href="#">龙类塑像</a>
+									<a href="#">刺绣,纺织制品</a>
+									<a href="#">桌类</a>
+									<a href="#">珠宝类</a>
+									<a href="#">墙面装饰类</a>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									名表专区
+									Luxury goods
+								</a>
+								<a href="#">男表</a>
+								<a href="#">女表</a>
+								<div class="show">
+									<a href="#">芝柏</a>
+									<a href="#">天峻</a>
+									<a href="#">浪琴</a>
+									<a href="#">精工</a>
+									<a href="#">爱彼</a>
+									<a href="#">蒂芙尼</a>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									珠宝
+									Jewelry
+								</a>
+								<a href="#">戒指</a>
+								<a href="#">项链</a>
+								<a href="#">耳环</a>
+								<div class="show">
+									<a href="#">大众款</a>
+									<a href="#">绿宝石戒指</a>
+									<a href="#">钻石铂金戒指</a>
+									<a href="#">黄金</a>
+									<a href="#">白金</a>
+									<a href="#">永恒戒</a>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									老爷车
+									Bubble car
+									<a href="#">老爷车</a>
+								</a>
+								<div class="show">
+									<a href="#">老爷车</a>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									闪购专区
+									Prive zone
+								</a>
+								<a href="#">手表</a>
+								<a href="#">珠宝</a>
+								<a href="#">箱包</a>
+								<div class="show">
+									<a href="#">手表</a>
+									<a href="#">珠宝</a>
+									<a href="#">箱包</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="auction.html?group=1">拍卖品</a></li>
+					<li><a href="auction.html?group=2">艺术品预览</a></li>
+					<li><a href="auction.html?group=1">名表预览</a></li>
+					<li><a href="auction.html?group=3">珠宝</a></li>
+					<li><a href="auction.html?group=4">老爷车</a></li>
+					<li><a href="#">乐器</a></li>
+					<li><a href="auction.html?group=6">收藏品</a></li>
+					<li><a href="auction.html?group=5">闪购专区</a></li>
+				</ul>
+				<!--****************轮播部分*****************-->
+				<div class="area">
+					<a id=prev class="prevBtn qq" href="javascript:void(0)"></a>
+					<a id=next class="nextBtn qq" href="javascript:void(0)"></a>
+					<div id=js class="js">
+						<div class="box01">
+							<img style="DISPLAY: none" src="img/banner1.jpg">
+							<img style="DISPLAY: none" src="img/bagBanner2.jpg">
+							<img style="DISPLAY: none" src="img/banner2.jpg">
+							<img style="DISPLAY: none" src="img/banner3.jpg">
+							<img style="DISPLAY: none" src="img/carBanner.jpg">
+						</div>
+						<div class="bg"></div>
+						<div id=jsNav class=jsNav>
+							<a class="trigger imgSelected" href="javascript:void(0)">1</a>
+							<a class="trigger" href="javascript:void(0)">2</a>
+							<a class="trigger" href="javascript:void(0)">3</a>
+							<a class="trigger" href="javascript:void(0)">4</a>
+							<a class="trigger" href="javascript:void(0)">5</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>

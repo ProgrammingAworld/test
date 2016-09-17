@@ -1,0 +1,16 @@
+<!--***********闪购部分*************-->
+		<div class="price" name="price">
+			<h2>
+				<img src="img/onePrice.jpg"/>
+				<div>
+					<span>手表</span>
+					<span>箱包</span>
+					<span>珠宝</span>
+				</div>
+				<span class="more">查看更多&gt;</span>
+			</h2>
+			<div class="left">
+				<img src="img/onePrice1.jpg" />
+			</div>
+			<ul class="right"></ul>
+		</div>
