@@ -1,0 +1,107 @@
+@charset "UTF-8";.goodsBox{background:#e8e8e9}
+.showGoods{overflow:hidden;padding-left:18px;width:1200px;margin:0 auto}
+.showGoods .location{width:1200px;height:50px}
+.showGoods .location .left{float:left;font-size:14px}
+.showGoods .location .left span:nth-child(1){line-height:50px;color:#797979;padding:0 6px}
+.showGoods .location .left span:nth-child(2){color:#463b7f;line-height:50px}
+.showGoods .location .right{font-size:14px;float:right;color:#797979}
+.showGoods .nav{position:relative;clear:both;width:1200px;height:260px;background:url(../img/sale2_bg.png) no-repeat left top;text-align:center}
+.showGoods .nav img{margin-right:230px;margin-top:30px;max-height:165px}
+.showGoods .nav span:nth-child(2){width:240px;position:absolute;font-family:"微软雅黑";right:12%;top:30%;font-size:16px;color:#fe2323}
+.showGoods .nav p{position:absolute;font-size:16px;width:110px;height:35px;text-align:center;line-height:35px;background:#fff;border-radius:5px;right:210px;top:110px;cursor:pointer}
+.showGoods .nav span:nth-child(4){cursor:pointer;position:absolute;text-align:left;padding-left:30px;right:10%;bottom:12px;color:white;font-size:16px;display:inline-block;width:50px;height:21px;background:url(../img/sale2_yan.png) no-repeat left center}
+.showGoods .nav span:nth-child(5){cursor:pointer;position:absolute;right:1%;bottom:12px;display:inline-block;width:50px;height:21px;background:url(../img/sale2_shou.png) no-repeat left center}
+.showGoods .goods{margin-top:20px;width:1220px;float:left;font-size:16px}
+.shadow{-webkit-box-shadow:6px -6px 10px #ccc;box-shadow:6px -6px 10px #ccc}
+.showGoods .goods li{cursor:pointer;position:relative;padding:10px;float:left;margin-bottom:10px;width:265px;height:380px;background:white;margin-right:20px;text-align:center}
+.showGoods .goods li>img{max-width:265px;height:199px}
+.showGoods .goods li>span:nth-child(2){position:absolute;top:216px;left:16px;width:30px;padding-left:20px;background:url(../img/sale2_yan.png) no-repeat left center}
+.showGoods .goods li>span:nth-child(3){position:absolute;top:214px;right:4px;width:30px;padding-left:20px;background:url(../img/sale2_shou.png) no-repeat left center}
+.showGoods .goods .information{margin-top:30px;padding-top:10px;display:block;width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-top:1px solid #ccc}
+.showGoods .goods .price{display:block;font-size:14px;line-height:30px;color:#666;margin-left:6px;float:left}
+.showGoods .goods .price span{color:#fe2323}
+.showGoods .goods .reckon{clear:both;font-size:14px;line-height:30px;color:#666;margin-left:6px;float:left}
+.showGoods .goods .saleTime{clear:both;display:block;text-align:left;font-size:14px;line-height:30px;color:#666;margin-left:6px}
+.showGoods .pageIndex{clear:both;width:1200px}
+.showGoods .pageIndex .goodsCount{float:left;padding-top:20px;font-size:16px;color:#949394}
+.showGoods .pageIndex ul{padding-top:20px;float:right}
+.showGoods .pageIndex ul>li{cursor:pointer;text-align:center;margin-left:8px;font-size:16px;width:36px;height:32px;line-height:26px;float:left;background:white}
+.showGoods .pageIndex ul>li:hover{color:blue}
+.showGoods select{width:66px;height:25px;float:right;margin-left:10px;margin-top:20px}
+.none{display:none}
+.active{background:#333!important;color:white!important}
+body,p,ul,dl,ol,li,h1,h2,h3,h4,h5,h6,fieldset,legend,dl,dd,dt,img{margin:0;padding:0}
+body{font:12px "微软雅黑"}
+ul,li{list-style:none}
+a{text-decoration:none;color:#666}
+img,input{border:0}
+.headerbox{height:30px}
+.header{height:30px;width:1200px;margin:0 auto}
+.header ul{font-size:12px;color:#999;float:right}
+.header li{margin-left:20px;float:left;line-height:30px}
+.header li{cursor:pointer}
+.header li:nth-child(1){cursor:auto}
+.header li a{font-size:12px;color:#999}
+.header li:nth-child(5),.header li:nth-child(6){margin-left:10px;padding-right:10px;background:url(../../img/san.png) no-repeat right center}
+.header li:nth-child(5),.header li:nth-child(5){position:relative}
+.header li:nth-child(5):hover .tel{display:block}
+.header li:nth-child(5):hover span{background:url(../../img/tel2.png)}
+.header li:nth-child(6):hover .erweima{display:block}
+.tel{width:120px;height:50px;display:none;padding-left:20px;color:purple;position:absolute;border:1px solid #eee;border-top:0;top:30px;right:0;background:white;z-index:10}
+.tel p{line-height:20px}
+.erweima{z-index:10;background:white;display:none;width:166px;height:95px;padding-left:12px;border:1px solid #eee;border-top:0;position:absolute;right:40px;top:30px}
+.erweima div{float:left;margin-right:10px}
+.erweima div p a{padding:10px;color:blue}
+.erweima img{display:block;width:70px;height:70px}
+.logobox{height:100px}
+.logo{width:1200px;height:100px;margin:0 auto}
+.logo h1{width:52px;height:100px;float:left;margin-right:18px}
+.logo h2{width:120px;height:100px;float:left}
+.search{float:left;padding-top:20px;margin-left:120px}
+.logo .search li{margin-left:10px;font-size:12px;float:left}
+.logo .search ul li:nth-child(1){color:#454646}
+.logo input{float:left;width:507px;height:36px;border:2px solid #463b7f}
+.logo .btn{text-align:center;line-height:42px;font-size:18px;color:white;background:#463b7f;float:left;width:65px;height:42px}
+.logo .shopCart{position:relative;margin-left:74px;margin-top:24px;padding-right:16px;float:left;width:154px;height:33px;font-size:14px;text-align:center;line-height:36px;border:1px solid #463b7f;background:url(../../img/paipinCar.png) no-repeat top 12px left 19px}
+.logo .shopCart span{text-align:center;width:140px;float:right;background:url(../../img/paipinSan.png) no-repeat right center}
+.logo .shopCart:hover ul{display:block}
+.logo .shopCart>ul{display:none;position:absolute;width:170px;border:1px solid #800080;top:33px;left:-1px;background:white;z-index:100}
+.logo .shopCart>ul li:hover a{color:red;text-decoration:none}
+.banner{width:1200px;margin:40px auto 0;position:relative}
+.banner .nav{width:1200px;height:40px;float:left}
+.banner .nav>li{cursor:pointer;float:left;font-size:16px;color:#333;line-height:40px;padding:0 19px;margin:0 10px}
+.banner .nav>li:hover{color:red}
+.banner .nav>li:nth-child(1){position:relative;width:150px;text-align:center;color:white;background:#382f6b}
+.banner .nav .navMenu{text-align:left;position:absolute;width:184px;top:40px;left:0;border:1px solid #463b7f}
+.banner .nav .navMenu>li{width:153px;height:91px;padding:0 17px;padding-top:10px;border-bottom:1px dashed white}
+.banner .nav .navMenu>li:nth-child(5){border:0}
+.banner .nav .navMenu li:nth-child(1),.banner .nav .navMenu li:nth-child(3),.banner .nav .navMenu li:nth-child(5){background-color:#463b7f}
+.banner .nav .navMenu li:nth-child(2),.banner .nav .navMenu li:nth-child(4){background-color:#382f6b}
+.banner .nav .navMenu li>a{color:white;line-height:30px;font-size:12px}
+.banner .nav .navMenu li>a:nth-child(1){display:block;margin:0;padding:0;font-size:16px}
+.banner .nav .navMenu .show{background:white;position:absolute;width:200px;height:512px;border:1px solid #382f6b;left:186px;top:-0px;background:white;padding-left:16px;display:none}
+.banner .nav .navMenu .show a{color:black;border-left:1px solid #ccc;font-size:14px;padding:0 10px}
+.banner .nav .navMenu .show a:hover{color:purple;text-decoration:none}
+.banner .nav .navMenu li:hover .show{display:block;z-index:100}
+.footerBox{padding-top:20px;background:red;height:400px;background:url(../../img/ditu.jpg) no-repeat right 40px top -10px}
+.footer{clear:both;width:1200px;margin:0 auto}
+.footer>ul{float:left;height:150px;margin-right:100px;margin-bottom:10px}
+.footer>ul li:nth-child(1){font-size:16px;padding-bottom:16px}
+.footer>ul li a{font-size:14px;color:#999;line-height:22px}
+.footer>ul li a:hover{color:purple;text-decoration:none}
+.footer>ul:nth-child(5) li:nth-child(2){font-size:16px}
+.footerBox .footerNav{clear:both;width:100%;height:38px;background:#463b7f}
+.footerBox .footerNav ul{width:1200px;height:100%;margin:0 auto}
+.footerBox .footerNav ul li{float:left;color:white;text-align:center;padding-left:100px;font:14px/38px "microsoft yahei"}
+.footerBox .footerNav ul li:nth-child(1) span{float:left;width:23px;height:38px;margin-right:4px;background:url(../../img/footerbg.png) no-repeat 0 8px}
+.footerBox .footerNav ul li:nth-child(2) span{float:left;width:23px;height:38px;margin-right:4px;background:url(../../img/footerbg.png) no-repeat -30px 8px}
+.footerBox .footerNav ul li:nth-child(3) span{float:left;width:23px;height:38px;margin-right:4px;background:url(../../img/footerbg.png) no-repeat -60px 8px}
+.footerBox .footerNav ul li:nth-child(4) span{float:left;width:23px;height:38px;margin-right:4px;background:url(../../img/footerbg.png) no-repeat -90px 8px}
+.footerBox .footerNav ul li:nth-child(5) span{float:left;width:25px;height:38px;margin-right:4px;background:url(../../img/footerbg.png) no-repeat -116px 8px}
+.footerBox .footerRight{width:1200px;margin:0 auto}
+.footerBox .footerRight .left{float:left;font-size:14px;font-family:"微软雅黑";color:#999}
+.footerBox .footerRight .left{margin-top:40px}
+.footerBox .footerRight .right{margin-top:10px;float:right}
+.footerBox .footerRight .right .phone,.footerBox .footerRight .right .weixin{float:left;width:110px;height:140px;margin-right:100px;text-align:center}
+.footerBox .footerRight .right img{width:110px;height:110px}
+.footerBox .footerRight .right p{font-size:16px}

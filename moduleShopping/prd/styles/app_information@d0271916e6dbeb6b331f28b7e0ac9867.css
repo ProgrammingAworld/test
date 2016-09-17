@@ -1,0 +1,164 @@
+@charset "UTF-8";.location{clear:both;margin-left:10px;font-size:14px;line-height:50px;width:1190px;height:50px;margin:0 auto;border-bottom:1px solid #463b7f}
+.location span{padding:6px;color:#797979}
+.location span:nth-child(3){cursor:pointer;color:#463b7f}
+.showGoods{padding-top:6px;width:1070px;height:562px;margin:0 auto}
+.showGoods .picNav{position:relative;padding-top:16px;width:86px;height:368px;float:left;overflow:hidden}
+.showGoods ul{position:absolute;float:left;height:362px;width:86px;background:#eee}
+.showGoods ul>li{text-align:center;width:86px;height:90px}
+.showGoods ul>li>img{width:80px;margin:0}
+.showGoods .leftBtn{z-index:10;cursor:pointer;display:inline-block;width:79px;height:15px;position:absolute;top:0;left:4px;background:url(../../img/detailTop.png) no-repeat left top}
+.showGoods .rightBtn{z-index:10;cursor:pointer;display:inline-block;width:82px;height:15px;position:absolute;top:370px;left:2px;background:#eee url(../../img/detailDown.png) no-repeat left top}
+.showGoods .goodsPicBox{margin-left:6px;width:380px;height:442px;float:left}
+.showGoods .goodsPicBox>span:nth-child(2){padding-left:26px;font-size:16px;background:url(../../img/sale2_yan.png) no-repeat left center}
+.showGoods .goodsPicBox>span:nth-child(3){float:right;padding-left:26px;font-size:16px;background:url(../../img/sale2_shou.png) no-repeat left center}
+.showGoods .goodsPic{cursor:crosshair;margin-bottom:20px;float:left;width:380px;height:380px;border:1px solid #ccc;text-align:center}
+.showGoods .goodsPic span{display:inline-block;width:0;height:100%;vertical-align:middle}
+.showGoods .goodsPic img{vertical-align:middle;width:376px}
+.showGoods .bigOriginal{z-index:10;overflow:hidden;position:absolute;width:380px;height:380px;top:270px;left:576px;display:none}
+.showGoods .bigOriginal>img{position:absolute}
+.goodsPic .shadow{z-index:100;position:absolute;display:block;width:100px;height:100px;background:black}
+.showGoods .information{padding-top:16px;margin-left:16px;float:left;width:580px;height:526px;position:relative}
+.showGoods .information .kefu{position:absolute;right:20px;top:100px}
+.showGoods .information .kefu>img{width:50px}
+.showGoods .information .kefu>span{font-size:18px;color:#e93f30}
+.showGoods .information .priceMark{width:391px;height:140px;background:url(../../img/detail_jia.png) no-repeat left top;position:absolute;left:100px;top:70px;display:none}
+.showGoods .information .priceMark>ul{margin-top:80px;width:390px;height:40px;padding-left:10px;background:0}
+.showGoods .information .priceMark>ul>li{cursor:pointer;float:left;line-height:22px;margin-right:8px;background:#ccc;height:22px;font-size:16px;padding:2px 0;border:1px solid #e93f30}
+.showGoods .information .priceMark>ul>li:nth-child(1){width:60px;background:0;border:0}
+.showGoods .information .desc{height:50px;font-size:18px;color:black;font-weight:600}
+.showGoods .information .saleTime,.showGoods .information .address{height:50px;font-size:16px}
+.showGoods .information .saleTime>span{color:red;font-size:16px}
+.showGoods .information .price{height:50px;font-size:16px}
+.showGoods .information .price>span:nth-child(1){margin-right:10px}
+.showGoods .information .price>span:nth-child(2){color:red;font-weight:600;font-size:16px}
+.showGoods .information .myPrice{height:50px;font-size:20px;font-weight:600}
+.showGoods .information .myPrice input{border:1px solid red;font-size:22px;color:red;font-weight:600;height:30px;width:200px}
+.showGoods .information .myPrice i{position:relative;font-style:normal;font-size:8px;background:red;color:white;padding:4px 10px;border-radius:5px}
+.showGoods .information .myPrice i img{position:absolute;top:30px;left:-50px;z-index:1}
+.showGoods .information .myPrice i span{position:absolute;cursor:pointer;left:220px;top:40px;color:#454646;z-index:1}
+.showGoods .information .mark{position:relative;padding-left:4px;width:580px;height:90px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;background:#eee}
+.showGoods .information .mark>img{position:absolute;right:0;top:-200px}
+.showGoods .information .mark>p{font-size:14px;color:red;text-align:center;margin-top:26px;float:left}
+.showGoods .information .mark>div:nth-child(2){padding-top:20px;font-size:14px;float:left;width:280px;height:60px;border-right:1px dashed #ccc}
+.showGoods .information .mark>div:nth-child(2) p{padding-left:10px;margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#333}
+.showGoods .information .mark>div:nth-child(3){padding-top:20px;font-size:14px;width:230px;float:left;height:70px}
+.showGoods .information .mark>div:nth-child(3) p{padding-left:10px;margin-top:6px}
+.showGoods .information .mark>div:nth-child(3) p:nth-child(1) span{display:inline-block;cursor:pointer;text-align:center;margin-left:6px;color:white;width:16px;height:16px;background:purple;border-radius:50%}
+.showGoods .information .agree{margin-top:8px}
+.showGoods .information .agree b{font-weight:100;color:red}
+.showGoods .information .money{font-size:22px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#333;line-height:50px;margin-bottom:20px}
+.showGoods .information .money span{color:#e93f30}
+.showGoods .information>i{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px;color:#aaa;font-style:normal}
+.showGoods .information .btnBox{margin-top:20px;height:40px;width:100%;float:left}
+.showGoods .information .btnBox .bid{cursor:pointer;float:left;font-size:16px;line-height:38px;width:127px;height:40px;color:white;text-align:center;background:#e93f30}
+.showGoods .information .btnBox .bid:hover{color:black}
+.showGoods .information .btnBox .keep{cursor:pointer;margin:0 40px;float:left;font-size:16px;line-height:38px;width:125px;height:38px;text-align:center;background:#ebebeb;border:1px solid #e93f30}
+.showGoods .information .btnBox .transform{cursor:pointer;float:left;font-size:16px;line-height:38px;width:125px;height:38px;text-align:center;background:#ebebeb;border:1px solid #e93f30}
+.flow{width:1200px;height:174px;margin:0 auto}
+.flow p{width:100%;padding-bottom:10px;border-bottom:1px solid #463b7f;font-size:20px;color:#463b7f}
+.flow ul{width:1070px;margin:0 auto}
+.flow ul>li{text-align:center;width:130px;font-size:16px;float:left;height:30px;line-height:30px;background:#ddd;margin-left:14px;margin-top:40px}
+.detailBox{width:1200px;margin:0 auto}
+.detail{width:820px;border:1px dashed #aaa;background:#eee}
+.detail ul{float:left;height:28px;margin-bottom:40px}
+.detail ul li{cursor:pointer;line-height:28px;text-align:center;width:120px;height:28px;border:1px solid #463b7f;margin-top:1px;float:left;font-size:16px}
+.detail ul li:nth-child(1){color:white;background:#463b7f}
+.detail .chinese .Part1,.detail .english p{padding:0 40px;clear:both;font-size:20px;color:#333;line-height:50px}
+.detail .chinese .Part2{clear:both;padding:0 40px;font-size:16px;line-height:30px}
+.detail .chinese i{font-style:normal;color:#e93f30}
+.detail .chinese .Part3{clear:both;padding:0 40px;font-size:14px;line-height:26px}
+.detail .chinese .Part3 b{font-size:16px}
+.detail .chinese .Part4{clear:both;padding:0 40px;font-size:16px;line-height:26px}
+.detail .chinese .Part4 i{font-weight:600}
+.detail .chinese .Part1,.detail .chinese .Part2,.detail .chinese .Part3,.detail .chinese .Part4{display:none}
+.slidePic{display:none}
+.display{width:1200px;margin:0 auto}
+.display p{font-size:16px;width:120px;height:30px;line-height:30px;text-align:center;background:#463b7f;color:#fff;margin:50px 0}
+.display ul li{width:840px;height:450px;border:1px solid #ddd;margin-bottom:40px;background:#fafafa;text-align:center}
+.display ul li img{max-height:450px}
+.like{width:1200px;margin:0 auto}
+.like .leftLine{width:536px;height:2px;background:#ccc;float:left;margin-top:12px}
+.like h2 span{padding:0 26px}
+.like .rightLine{width:536px;height:2px;background:#ccc;float:right;margin-top:12px}
+.like .likeBanner{width:1200px;height:240px;margin:0 auto;position:relative;overflow:hidden}
+.like .likeBanner ul{width:2500px;height:240px;float:left;position:absolute;top:0;left:0}
+.like .likeBanner ul li{width:150px;height:220px;float:left;margin:20px 45px 0;text-align:center}
+.like .likeBanner ul li img{max-height:150px;max-width:150px}
+.like .likeBanner ul li p{text-align:center;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;line-height:20px;font-size:12px;font-family:"微软雅黑"}
+.like .leftBtn{cursor:pointer;position:absolute;width:20px;height:53px;display:block;left:0;top:60px;z-index:10;background:url(../../img/left1.jpg) no-repeat left top}
+.like .rightBtn{cursor:pointer;position:absolute;width:20px;height:53px;display:block;right:0;top:60px;background:url(../../img/right1.jpg) no-repeat left top}
+body,p,ul,dl,ol,li,h1,h2,h3,h4,h5,h6,fieldset,legend,dl,dd,dt,img{margin:0;padding:0}
+body{font:12px "微软雅黑"}
+ul,li{list-style:none}
+a{text-decoration:none;color:#666}
+img,input{border:0}
+.headerbox{height:30px}
+.header{height:30px;width:1200px;margin:0 auto}
+.header ul{font-size:12px;color:#999;float:right}
+.header li{margin-left:20px;float:left;line-height:30px}
+.header li{cursor:pointer}
+.header li:nth-child(1){cursor:auto}
+.header li a{font-size:12px;color:#999}
+.header li:nth-child(5),.header li:nth-child(6){margin-left:10px;padding-right:10px;background:url(../../img/san.png) no-repeat right center}
+.header li:nth-child(5),.header li:nth-child(5){position:relative}
+.header li:nth-child(5):hover .tel{display:block}
+.header li:nth-child(5):hover span{background:url(../../img/tel2.png)}
+.header li:nth-child(6):hover .erweima{display:block}
+.tel{width:120px;height:50px;display:none;padding-left:20px;color:purple;position:absolute;border:1px solid #eee;border-top:0;top:30px;right:0;background:white;z-index:10}
+.tel p{line-height:20px}
+.erweima{z-index:10;background:white;display:none;width:166px;height:95px;padding-left:12px;border:1px solid #eee;border-top:0;position:absolute;right:40px;top:30px}
+.erweima div{float:left;margin-right:10px}
+.erweima div p a{padding:10px;color:blue}
+.erweima img{display:block;width:70px;height:70px}
+.logobox{height:100px}
+.logo{width:1200px;height:100px;margin:0 auto}
+.logo h1{width:52px;height:100px;float:left;margin-right:18px}
+.logo h2{width:120px;height:100px;float:left}
+.search{float:left;padding-top:20px;margin-left:120px}
+.logo .search li{margin-left:10px;font-size:12px;float:left}
+.logo .search ul li:nth-child(1){color:#454646}
+.logo input{float:left;width:507px;height:36px;border:2px solid #463b7f}
+.logo .btn{text-align:center;line-height:42px;font-size:18px;color:white;background:#463b7f;float:left;width:65px;height:42px}
+.logo .shopCart{position:relative;margin-left:74px;margin-top:24px;padding-right:16px;float:left;width:154px;height:33px;font-size:14px;text-align:center;line-height:36px;border:1px solid #463b7f;background:url(../../img/paipinCar.png) no-repeat top 12px left 19px}
+.logo .shopCart span{text-align:center;width:140px;float:right;background:url(../../img/paipinSan.png) no-repeat right center}
+.logo .shopCart:hover ul{display:block}
+.logo .shopCart>ul{display:none;position:absolute;width:170px;border:1px solid #800080;top:33px;left:-1px;background:white;z-index:100}
+.logo .shopCart>ul li:hover a{color:red;text-decoration:none}
+.banner{width:1200px;margin:40px auto 0;position:relative}
+.banner .nav{width:1200px;height:40px;float:left}
+.banner .nav>li{cursor:pointer;float:left;font-size:16px;color:#333;line-height:40px;padding:0 19px;margin:0 10px}
+.banner .nav>li:hover{color:red}
+.banner .nav>li:nth-child(1){position:relative;width:150px;text-align:center;color:white;background:#382f6b}
+.banner .nav .navMenu{text-align:left;position:absolute;width:184px;top:40px;left:0;border:1px solid #463b7f}
+.banner .nav .navMenu>li{width:153px;height:91px;padding:0 17px;padding-top:10px;border-bottom:1px dashed white}
+.banner .nav .navMenu>li:nth-child(5){border:0}
+.banner .nav .navMenu li:nth-child(1),.banner .nav .navMenu li:nth-child(3),.banner .nav .navMenu li:nth-child(5){background-color:#463b7f}
+.banner .nav .navMenu li:nth-child(2),.banner .nav .navMenu li:nth-child(4){background-color:#382f6b}
+.banner .nav .navMenu li>a{color:white;line-height:30px;font-size:12px}
+.banner .nav .navMenu li>a:nth-child(1){display:block;margin:0;padding:0;font-size:16px}
+.banner .nav .navMenu .show{background:white;position:absolute;width:200px;height:512px;border:1px solid #382f6b;left:186px;top:-0px;background:white;padding-left:16px;display:none}
+.banner .nav .navMenu .show a{color:black;border-left:1px solid #ccc;font-size:14px;padding:0 10px}
+.banner .nav .navMenu .show a:hover{color:purple;text-decoration:none}
+.banner .nav .navMenu li:hover .show{display:block;z-index:100}
+.footerBox{padding-top:20px;background:red;height:400px;background:url(../../img/ditu.jpg) no-repeat right 40px top -10px}
+.footer{clear:both;width:1200px;margin:0 auto}
+.footer>ul{float:left;height:150px;margin-right:100px;margin-bottom:10px}
+.footer>ul li:nth-child(1){font-size:16px;padding-bottom:16px}
+.footer>ul li a{font-size:14px;color:#999;line-height:22px}
+.footer>ul li a:hover{color:purple;text-decoration:none}
+.footer>ul:nth-child(5) li:nth-child(2){font-size:16px}
+.footerBox .footerNav{clear:both;width:100%;height:38px;background:#463b7f}
+.footerBox .footerNav ul{width:1200px;height:100%;margin:0 auto}
+.footerBox .footerNav ul li{float:left;color:white;text-align:center;padding-left:100px;font:14px/38px "microsoft yahei"}
+.footerBox .footerNav ul li:nth-child(1) span{float:left;width:23px;height:38px;margin-right:4px;background:url(../../img/footerbg.png) no-repeat 0 8px}
+.footerBox .footerNav ul li:nth-child(2) span{float:left;width:23px;height:38px;margin-right:4px;background:url(../../img/footerbg.png) no-repeat -30px 8px}
+.footerBox .footerNav ul li:nth-child(3) span{float:left;width:23px;height:38px;margin-right:4px;background:url(../../img/footerbg.png) no-repeat -60px 8px}
+.footerBox .footerNav ul li:nth-child(4) span{float:left;width:23px;height:38px;margin-right:4px;background:url(../../img/footerbg.png) no-repeat -90px 8px}
+.footerBox .footerNav ul li:nth-child(5) span{float:left;width:25px;height:38px;margin-right:4px;background:url(../../img/footerbg.png) no-repeat -116px 8px}
+.footerBox .footerRight{width:1200px;margin:0 auto}
+.footerBox .footerRight .left{float:left;font-size:14px;font-family:"微软雅黑";color:#999}
+.footerBox .footerRight .left{margin-top:40px}
+.footerBox .footerRight .right{margin-top:10px;float:right}
+.footerBox .footerRight .right .phone,.footerBox .footerRight .right .weixin{float:left;width:110px;height:140px;margin-right:100px;text-align:center}
+.footerBox .footerRight .right img{width:110px;height:110px}
+.footerBox .footerRight .right p{font-size:16px}
