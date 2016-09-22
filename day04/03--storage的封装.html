@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.show{
+				background: cadetblue;
+			}
+		</style>
+		<script src="js/jquery-3.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/03--utils.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<h1>请输入要存储的内容</h1>
+		<span>温馨提示：可以选择是localstorage类型或者sessionstorage的类型</span>
+		<hr />
+		<input type="text" id="name" placeholder="key" />
+		<br />
+		<textarea rows="10" cols="40" placeholder="value" style="margin-top: 20px;" id="value"></textarea>
+		<br />
+		session:<input type="checkbox" id="session"/>
+		<input type="button" id="submit" value="提交" />
+		<input type="button" id="remove" value="移除" />
+		<input type="button" id="clear" value="清除数据" />
+		
+		<div class="show"></div>
+	</body>
+</html>
