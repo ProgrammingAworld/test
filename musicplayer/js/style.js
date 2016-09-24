@@ -52,13 +52,14 @@ window.onload=function(){
 		$(".voiceLine").css("display","none");
 	});
 	$(".voiceLine").on("click",function(e){
-		var lineHeight= $(this).offset().top-$(this).height()-e.clientY+10;
-		console.log($(".line").height());
+		var lineHeight=$(this).offset().top+$(this).height()- e.clientY;
 		if (Math.ceil(lineHeight)>70) {
 			$("#"+songIndex)[0].volume=1;
 		}else{
+			console.log(Math.ceil(lineHeight/8)/10);
 			$("#"+songIndex)[0].volume=Math.ceil(lineHeight/8)/10;
 		}
+		console.log($("#"+songIndex)[0].volume)
 		$(".line").css("height",Math.ceil(lineHeight));
 	});
 	/*---------------设置音乐进度----------------*/
