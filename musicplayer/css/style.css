@@ -1,0 +1,254 @@
+
+body,p,ul,dl,ol,li,h1,h2,h3,h4,h5,h6,fieldset,legend,dl,dd,dt{margin:0; padding:0;}
+ul,li{list-style:none;}
+a{text-decoration:none;}
+img,input{border:0;}
+/*-------------------------------*/
+body,html{
+	width:100%;
+	height: 100%;
+}
+.content{
+	padding-top: 10%;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom right,#5521b8,#661fad,#b923b7);
+}
+
+/*------------------旋转的专辑图----------------------*/
+.circle{
+	position: relative;
+	width: 374px;
+	height: 374px;
+	display: inline-block;
+	border-radius: 50%;
+	transform:rotate(0deg) scale(0.7);
+	background: url(../images/cd.png) no-repeat;
+	left: 15%;
+	top: 15%;
+	box-shadow: 0px 0px 20px #000000;
+}
+.circle .people{
+	position: absolute;
+	width: 320px;
+	height: 320px;
+	border-radius: 50%;
+	left: 7%;
+	top: 7%;
+	transform: scale(0.6);
+	background: url(../images/img.jpg) no-repeat 0px 0px;
+}
+ .pointer{
+	position: absolute;
+	left: 35%;
+	top: 140px;
+	transform-origin: 0 0;
+	transform: rotate(-26deg);
+	transition: transform 1s ease-in;
+}
+
+
+/*-------------右侧的信息部分--------------*/
+.box{
+	padding-left: 10px;
+	margin-top: 14%;
+	margin-right: 10%;
+	float: right;
+	width: 380px;
+	height: 200px;
+	/*background: black;*/
+}
+
+.box .informationBox{
+	width: 100%;
+	height: 110px;
+	text-align: center;
+}
+.box .informationBox >span:nth-child(1){
+	font-size: 44px;
+	display: block;
+	color: white;
+	margin-bottom: 20px;
+}
+.box .informationBox .album{
+	width: 100%;
+	height: 26px;
+}
+.box .informationBox .album span:nth-child(1){
+	font-size: 22px;
+	color: white;
+}
+.box .informationBox .album span:nth-child(2){
+	font-size: 16px;
+	color: white;
+}
+.box .action{
+	width: 100%;
+	height: 24px;
+}
+.box .action .icon-icon,.box .action .bofang,.box .action .icon-icon1{
+	cursor: pointer;
+	margin-right: 10px;
+	font-size: 24px;
+	color: white;
+}
+.box .action .icon-suijibofang{
+	font-size: 24px;
+	color: white;
+}
+.box .action .icon-shuaxin,.box .action .icon-yinliang{
+	cursor: pointer;
+	font-size: 19px;
+	color: white;
+}
+.box .action .icon-suijibofang{
+	margin-left: 40%;
+}
+.box .action .icon-yinliang{
+	position: relative;
+}
+.box .action .icon-yinliang .voiceLine{
+	cursor: pointer;
+	display: none;
+	position: absolute;
+	background: white;
+	width: 8px;
+	overflow: hidden;
+	height: 80px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	left: 6px;
+	top: -80px;
+}
+.box .action .icon-yinliang .voiceLine .line{
+	max-height: 80px;
+	width: 6px;
+	height: 40px;
+	position: absolute;
+	left: 1px;
+	bottom: 0;
+	background: orangered;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.box .displayBox{
+	margin-top: 20px;
+	width: 100%;
+	height: 16px;
+}
+.box .displayBox >div{
+	float: left;
+}
+.box .displayBox .timeBox{
+	width: 20%;
+	color: white;
+	font-size: 12px;
+}
+.box .displayBox .progress{
+	cursor: pointer;
+	position: relative;
+	margin-top: 6px;
+	float: left;
+	height: 6px;
+	width: 70%;
+	background: rgba(0,0,0,0.4);
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.box .displayBox .progress .white{
+	position: absolute;
+	opacity: 1;
+	height: 6px;
+	width: 0px;
+	background: white;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+/*---------------歌单列表-----------------*/
+.list{
+	height: 86px;
+	width: 1020px;
+	margin: 100px auto;
+}
+.list li{
+	cursor: pointer;
+	border-radius: 6px;
+	padding: 10px 20px;
+	float: left;
+	margin-right: 10px;
+	width: 154px;
+	height: 100%;
+	background: linear-gradient(to bottom,rgba(255,255,255,0.1),rgba(0,0,0,0.8));
+}
+.list li span:nth-child(1){
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	font-size: 30px;
+	color: white;
+	margin-bottom: 8px;
+}
+.list li span:nth-child(1):hover{
+	transform: scale(1.2);
+}
+.list li span:nth-child(2){
+	width: 100%;
+	color: white;
+}
+.list li span:nth-child(2) i{
+	font-style: normal;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
